@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <solid android:color="@color/MemeBackgroundcolor"/>
+    <padding android:left="@dimen/_1sdp" android:top="@dimen/_1sdp" android:right="@dimen/_1sdp" android:bottom="@dimen/_1sdp"/>
+    <corners android:topLeftRadius="@dimen/_8sdp" android:topRightRadius="@dimen/_8sdp" android:bottomLeftRadius="@dimen/_8sdp" android:bottomRightRadius="@dimen/_8sdp"/>
+    <stroke android:width="@dimen/_1sdp" android:color="@color/gray"/>
+</shape>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/bg_primary" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/top_bar_layout" layout="@layout/snippet_top_bar_layout"/>
+    <com.memes.commons.contentlayout.ContentLayout android:id="@+id/content_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/posts_recycler_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </com.memes.commons.contentlayout.ContentLayout>
+</LinearLayout>

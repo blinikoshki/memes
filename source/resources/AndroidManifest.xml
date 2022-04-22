@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:versionCode="400073" android:versionName="2.39(arm64-v8a)" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" package="com.memes.plus" platformBuildVersionCode="29" platformBuildVersionName="10">
+    <uses-sdk android:minSdkVersion="22" android:targetSdkVersion="29"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.STORAGE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.ACCESS_ALL_DOWNLOADS"/>
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@mipmap/ic_launcher" android:name="com.memes.plus.App" android:allowBackup="false" android:largeHeap="true" android:supportsRtl="true" android:extractNativeLibs="true" android:fullBackupContent="@xml/appsflyer_backup_rules" android:usesCleartextTraffic="true" android:networkSecurityConfig="@xml/network_security_config" android:roundIcon="@mipmap/ic_launcher_round" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:requestLegacyExternalStorage="true">
+        <activity android:theme="@style/Activity.Transparent" android:name="com.memes.plus.p040ui.subscription.StoreActivity" android:screenOrientation="unspecified" android:configChanges="uiMode"/>
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <meta-data android:name="com.facebook.sdk.AutoInitEnabled" android:value="true"/>
+        <meta-data android:name="com.facebook.sdk.AutoLogAppEventsEnabled" android:value="false"/>
+        <meta-data android:name="com.facebook.sdk.AdvertiserIDCollectionEnabled" android:value="false"/>
+        <provider android:name="com.facebook.FacebookContentProvider" android:exported="true" android:authorities="com.facebook.app.FacebookContentProvidercom.memes.plus"/>
+        <meta-data android:name="firebase_crashlytics_collection_enabled" android:value="true"/>
+        <meta-data android:name="com.google.firebase.messaging.default_notification_icon" android:resource="@drawable/ic_app_notification"/>
+        <meta-data android:name="com.google.firebase.messaging.default_notification_channel_id" android:value="memes.default_notification_channel"/>
+        <meta-data android:name="com.snapchat.kit.sdk.clientId" android:value="e300d2b3-c6c6-4bdb-b1cf-a225daa520e4"/>
+        <meta-data android:name="com.snapchat.kit.sdk.redirectUrl" android:value="blackchat://login"/>
+        <meta-data android:name="com.snapchat.kit.sdk.scopes" android:resource="@array/snap_connect_scopes"/>
+        <activity android:name="com.snapchat.kit.sdk.SnapKitActivity" android:launchMode="singleTask" android:configChanges="uiMode">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="blackchat" android:host="login"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/SplashTheme" android:name="com.memes.plus.p040ui.splash.SplashActivity" android:screenOrientation="portrait" android:configChanges="uiMode" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="https" android:host="memes.onelink.me"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/SplashTheme" android:name="com.memes.plus.p040ui.update.CheckUpdateActivity" android:screenOrientation="portrait" android:configChanges="uiMode" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan"/>
+        <activity android:theme="@style/SplashTheme" android:name="com.memes.plus.p040ui.welcome.WelcomeActivity" android:screenOrientation="portrait" android:configChanges="uiMode" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan"/>
+        <activity android:theme="@style/com_facebook_activity_theme" android:label="@string/app_name" android:name="com.facebook.FacebookActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize"/>
+        <activity android:theme="@style/MemesApp" android:name="com.memes.plus.p040ui.auth.login.LoginActivity" android:screenOrientation="portrait" android:configChanges="uiMode" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan"/>
+        <activity android:theme="@style/MemesApp" android:name="com.memes.plus.p040ui.auth.signinsc.SnapchatAuthActivity" android:screenOrientation="portrait" android:configChanges="uiMode" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan"/>
+        <activity android:theme="@style/MemesApp" android:name="com.memes.plus.p040ui.auth.signin.SignInActivity" android:screenOrientation="portrait" android:configChanges="uiMode" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan"/>
+        <activity android:theme="@style/MemesApp" android:name="com.memes.plus.p040ui.auth.signup.SignUpActivity" android:screenOrientation="portrait" android:configChanges="uiMode" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan"/>
+        <activity android:theme="@style/MemesApp" android:name="com.memes.plus.p040ui.auth.recovery.AccountRecoveryActivity" android:screenOrientation="portrait" android:configChanges="uiMode" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan"/>
+        <activity android:theme="@style/MemesApp" android:name="com.memes.plus.p040ui.auth.auth_prompt.AuthPromptActivity" android:screenOrientation="portrait" android:configChanges="uiMode" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan"/>
+        <activity android:name="com.memes.plus.p040ui.home.HomeActivity" android:screenOrientation="portrait" android:configChanges="uiMode" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustResize">
+            <meta-data android:name="addressable" android:value="true"/>
+        </activity>
+        <activity android:name="com.memes.plus.p040ui.home.routing.HomeRoutingActivity" android:screenOrientation="portrait" android:configChanges="uiMode" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustResize"/>
+        <activity android:name="com.memes.plus.p040ui.home.targetednavigation.TargetedNavigationActivity" android:screenOrientation="portrait" android:configChanges="uiMode" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustResize">
+            <meta-data android:name="addressable" android:value="true"/>
+        </activity>
+        <activity android:theme="@style/GeneratorTheme" android:name="com.memes.plus.p040ui.editorproxy.EditorProxyActivity" android:screenOrientation="portrait" android:configChanges="uiMode" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan">
+            <meta-data android:name="addressable" android:value="true"/>
+        </activity>
+        <activity android:theme="@style/GeneratorTheme" android:name="com.memes.plus.p040ui.editorproxy.VideoTrimmerProxyActivity" android:screenOrientation="portrait" android:configChanges="uiMode" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan">
+            <meta-data android:name="addressable" android:value="true"/>
+        </activity>
+        <activity android:theme="@style/GeneratorTheme" android:name="com.memes.plus.p040ui.editorproxy.FiltersProxyActivity" android:screenOrientation="portrait" android:configChanges="uiMode" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan">
+            <meta-data android:name="addressable" android:value="true"/>
+        </activity>
+        <activity android:name="com.memes.plus.p040ui.web_view.WebViewActivity" android:screenOrientation="portrait" android:configChanges="uiMode" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan"/>
+        <activity android:name="com.memes.plus.p040ui.profile.edit_profile.EditProfileActivity" android:screenOrientation="portrait" android:configChanges="uiMode" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan"/>
+        <activity android:name="com.memes.plus.p040ui.profile.edit_profile.notification_settings.NotificationSettingsActivity" android:screenOrientation="portrait" android:configChanges="uiMode" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan"/>
+        <activity android:name="com.memes.plus.p040ui.create_post.ExportPostActivity" android:screenOrientation="portrait" android:configChanges="uiMode" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan">
+            <meta-data android:name="addressable" android:value="true"/>
+        </activity>
+        <activity android:name="com.memes.plus.p040ui.posts.edit_post.EditPostActivity" android:screenOrientation="portrait" android:configChanges="uiMode" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustResize"/>
+        <activity android:name="com.memes.plus.p040ui.create_post.catalogueselection.ExportCatalogueSelectionActivity" android:screenOrientation="portrait" android:configChanges="uiMode" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan"/>
+        <activity android:theme="@style/MemesApp" android:name="com.memes.plus.p040ui.create_post.tagpeople.TagPeopleActivity" android:screenOrientation="portrait" android:configChanges="uiMode"/>
+        <activity android:theme="@style/MediaPreviewTheme" android:name="com.memes.plus.p040ui.media_viewer.MediaViewerActivity" android:screenOrientation="portrait" android:configChanges="uiMode" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan"/>
+        <activity android:name="com.memes.plus.p040ui.post_comments.PostCommentsActivity" android:screenOrientation="portrait" android:configChanges="uiMode" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustResize"/>
+        <provider android:name="com.memes.commons.provider.SimpleFileProvider" android:exported="false" android:authorities="com.memes.plus.fileprovider" android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"/>
+        </provider>
+        <service android:name="com.memes.plus.firebase.PushNotificationsService" android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity android:theme="@style/Theme.ChatApp" android:name="com.memes.chat.p036ui.startup.ChatStartupActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/ChatSdkTheme" android:name="com.memes.chat.p036ui.channel.list.ChannelsActivity" android:screenOrientation="portrait" android:configChanges="uiMode"/>
+        <activity android:theme="@style/Theme.ChatApp" android:name="com.memes.chat.p036ui.channel.create.CreateChannelActivity" android:screenOrientation="portrait" android:configChanges="uiMode"/>
+        <activity android:theme="@style/ChatSdkTheme" android:name="com.memes.chat.p036ui.channel.messages.ChannelMessagesActivity" android:screenOrientation="portrait" android:configChanges="uiMode"/>
+        <activity android:theme="@style/Theme.ChatApp" android:name="com.memes.chat.p036ui.channel.info.ChannelInfoActivity" android:screenOrientation="portrait" android:configChanges="uiMode"/>
+        <activity android:theme="@style/Theme.ChatApp" android:name="com.memes.chat.p036ui.channel.members.ChannelMembersActivity" android:screenOrientation="portrait" android:configChanges="uiMode"/>
+        <activity android:theme="@style/Theme.ChatApp" android:name="com.memes.chat.p036ui.channel.members.add.AddChannelMembersActivity" android:screenOrientation="portrait" android:configChanges="uiMode"/>
+        <activity android:theme="@style/Theme.ChatTransparent" android:name="com.memes.chat.p036ui.directmessaging.DirectMessagingActivity" android:screenOrientation="unspecified" android:configChanges="uiMode"/>
+        <service android:name="com.memes.chat.services.ChatService" android:exported="false"/>
+        <activity android:name="editor.editor.showcase.ShowcaseActivity"/>
+        <activity android:theme="@style/Dashboard.DraftPreview" android:name="editor.editor.dashboard.draftpreview.EditorDraftPreviewActivity" android:screenOrientation="portrait" android:configChanges="uiMode" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan">
+            <meta-data android:name="addressable" android:value="true"/>
+        </activity>
+        <activity android:theme="@style/Activity.Transparent" android:name="editor.optionsui.addcontent.text.AddTextActivity" android:screenOrientation="unspecified" android:configChanges="uiMode" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/Dashboard" android:name="editor.mediaselection.MediaSelectionActivity" android:screenOrientation="portrait" android:configChanges="uiMode" android:windowSoftInputMode="adjustResize"/>
+        <activity android:theme="@style/Dashboard" android:name="editor.mediaselection.targetedmediabrowser.TargetedMediaSelectionActivity" android:screenOrientation="portrait" android:configChanges="uiMode" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustResize|adjustPan|adjustNothing"/>
+        <activity android:theme="@style/EntrySelectionPage" android:name="editor.editor.entry.EditorEntrySelectionActivity" android:screenOrientation="portrait" android:configChanges="uiMode" android:windowSoftInputMode="adjustResize">
+            <meta-data android:name="addressable" android:value="true"/>
+        </activity>
+        <activity android:theme="@style/Activity.Transparent" android:name="editor.optionsui.addcontent.contentpicker.ContentPickerActivity" android:screenOrientation="unspecified" android:configChanges="uiMode" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustResize|adjustPan|adjustNothing"/>
+        <activity android:theme="@style/GeneratorTheme" android:name="editor.tools.signature.SignatureActivity" android:screenOrientation="portrait" android:configChanges="uiMode" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustResize|adjustPan|adjustNothing"/>
+        <activity android:theme="@style/GeneratorTheme" android:name="editor.tools.crop.CropActivity" android:screenOrientation="portrait" android:configChanges="uiMode" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustResize|adjustPan|adjustNothing"/>
+        <provider android:name="androidx.core.content.FileProvider" android:exported="false" android:authorities="memes.editor.provider" android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/n_provider_paths"/>
+        </provider>
+        <activity android:theme="@style/UCropTheme" android:name="com.yalantis.ucrop.UCropActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/MediaViewerTheme" android:name="com.memes.commons.mediaviewer.MediaViewerActivity" android:screenOrientation="portrait"/>
+        <provider android:name="com.getstream.sdk.chat.utils.frescoimageviewer.FrescoContentProvider" android:enabled="true" android:exported="false" android:authorities="com.memes.plus.FrescoContentProvider"/>
+        <activity android:name="com.getstream.sdk.chat.view.activity.AttachmentMediaActivity"/>
+        <activity android:name="com.getstream.sdk.chat.view.activity.AttachmentDocumentActivity"/>
+        <activity android:name="com.getstream.sdk.chat.view.activity.AttachmentActivity"/>
+        <provider android:name="com.getstream.sdk.chat.StreamFileProvider" android:exported="false" android:authorities="com.memes.plus.streamfileprovider" android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/stream_filepaths"/>
+        </provider>
+        <provider android:name="androidx.startup.InitializationProvider" android:exported="false" android:authorities="com.memes.plus.androidx-startup">
+            <meta-data android:name="com.getstream.sdk.chat.startup.ThreeTenInitializer" android:value="androidx.startup"/>
+        </provider>
+        <service android:name="p015io.getstream.chat.android.livedata.service.sync.OfflineSyncFirebaseMessagingService" android:exported="false">
+            <intent-filter android:priority="-1">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <receiver android:name="p015io.getstream.chat.android.client.receivers.NotificationMessageReceiver" android:enabled="true" android:exported="false">
+            <intent-filter>
+                <action android:name="com.getstream.sdk.chat.READ"/>
+                <action android:name="com.getstream.sdk.chat.REPLY"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="p015io.getstream.chat.android.client.notifications.ChatFirebaseMessagingService" android:exported="false">
+            <intent-filter android:priority="-2">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity android:theme="@style/Dexter.Internal.Theme.Transparent" android:name="com.karumi.dexter.DexterActivity"/>
+        <activity android:name="com.facebook.CustomTabMainActivity"/>
+        <activity android:name="com.facebook.CustomTabActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="fbconnect" android:host="cct.com.memes.plus"/>
+            </intent-filter>
+        </activity>
+        <service android:name="com.google.firebase.components.ComponentDiscoveryService" android:exported="false" android:directBootAware="true">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.remoteconfig.ktx.FirebaseRemoteConfigKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.ktx.FirebaseMessagingKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.ktx.FirebaseCrashlyticsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.iid.Registrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <provider android:name="com.snapchat.kit.sdk.SnapKitInitProvider" android:exported="false" android:authorities="com.memes.plus.SnapKitInitProvider"/>
+        <provider android:name="com.squareup.picasso.PicassoProvider" android:exported="false" android:authorities="com.memes.plus.com.squareup.picasso"/>
+        <provider android:name="com.facebook.internal.FacebookInitProvider" android:exported="false" android:authorities="com.memes.plus.FacebookInitProvider"/>
+        <receiver android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="com.jakewharton.processphoenix.ProcessPhoenix" android:process=":phoenix"/>
+        <meta-data android:name="com.google.android.play.billingclient.version" android:value="3.0.1"/>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="com.android.billingclient.api.ProxyBillingActivity" android:exported="false" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize"/>
+        <provider android:name="androidx.work.impl.WorkManagerInitializer" android:exported="false" android:multiprocess="true" android:authorities="com.memes.plus.workmanager-init" android:directBootAware="false"/>
+        <service android:name="androidx.work.impl.background.systemalarm.SystemAlarmService" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:directBootAware="false"/>
+        <service android:name="androidx.work.impl.background.systemjob.SystemJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:enabled="@bool/enable_system_job_service_default" android:exported="true" android:directBootAware="false"/>
+        <service android:name="androidx.work.impl.foreground.SystemForegroundService" android:enabled="@bool/enable_system_foreground_service_default" android:exported="false" android:directBootAware="false"/>
+        <receiver android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver" android:enabled="true" android:exported="false" android:directBootAware="false"/>
+        <receiver android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy" android:enabled="false" android:exported="false" android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy" android:enabled="false" android:exported="false" android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy" android:enabled="false" android:exported="false" android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy" android:enabled="false" android:exported="false" android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver" android:enabled="false" android:exported="false" android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver" android:permission="android.permission.DUMP" android:enabled="true" android:exported="true" android:directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="androidx.room.MultiInstanceInvalidationService" android:exported="false" android:directBootAware="true"/>
+        <service android:name="com.google.firebase.messaging.FirebaseMessagingService" android:exported="false" android:directBootAware="true">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery" android:exported="false">
+            <meta-data android:name="backend:com.google.android.datatransport.cct.CctBackendFactory" android:value="cct"/>
+        </service>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="com.google.firebase.auth.internal.GenericIdpActivity" android:exported="true" android:excludeFromRecents="true" android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="genericidp" android:host="firebase.auth" android:path="/"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="com.google.firebase.auth.internal.RecaptchaActivity" android:exported="true" android:excludeFromRecents="true" android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="recaptcha" android:host="firebase.auth" android:path="/"/>
+            </intent-filter>
+        </activity>
+        <service android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService" android:enabled="true" android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.auth.api.gms.service.START"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <receiver android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND" android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <provider android:name="com.google.firebase.provider.FirebaseInitProvider" android:exported="false" android:authorities="com.memes.plus.firebaseinitprovider" android:initOrder="100" android:directBootAware="true"/>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:exported="false"/>
+        <receiver android:name="com.google.android.gms.measurement.AppMeasurementReceiver" android:enabled="true" android:exported="false"/>
+        <service android:name="com.google.android.gms.measurement.AppMeasurementService" android:enabled="true" android:exported="false"/>
+        <service android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:enabled="true" android:exported="false"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <provider android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer" android:exported="false" android:multiprocess="true" android:authorities="com.memes.plus.lifecycle-process"/>
+        <service android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"/>
+        <receiver android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver" android:exported="false"/>
+    </application>
+</manifest>

@@ -1,0 +1,373 @@
+[
+  {
+    "id": "premium_font_1",
+    "type": "premium",
+    "display_name": "Helvetica",
+    "file_name": "blank.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_2",
+    "type": "premium",
+    "display_name": "Anna Regular",
+    "file_name": "anna_regular.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_3",
+    "type": "premium",
+    "display_name": "Baar Antropos Display",
+    "file_name": "blank.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_4",
+    "type": "premium",
+    "display_name": "Big Regular",
+    "file_name": "blank.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_5",
+    "type": "premium",
+    "display_name": "Good Regular",
+    "file_name": "blank.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_6",
+    "type": "premium",
+    "display_name": "Zipper Blues Outline",
+    "file_name": "zipper_blues_outline.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_7",
+    "type": "premium",
+    "display_name": "Bank Gothic Light BT",
+    "file_name": "blank.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_8",
+    "type": "premium",
+    "display_name": "Perpetua",
+    "file_name": "perpetua.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_9",
+    "type": "premium",
+    "display_name": "Old English",
+    "file_name": "old_english.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_10",
+    "type": "premium",
+    "display_name": "Mickey",
+    "file_name": "mickey.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_11",
+    "type": "premium",
+    "display_name": "Lucida Sans Unicode",
+    "file_name": "blank.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_12",
+    "type": "premium",
+    "display_name": "Liquidism",
+    "file_name": "liquidism.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_13",
+    "type": "premium",
+    "display_name": "Freebooter Script",
+    "file_name": "freebooter_script.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_14",
+    "type": "premium",
+    "display_name": "Dodger",
+    "file_name": "dodger_personal.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_15",
+    "type": "premium",
+    "display_name": "Data Control",
+    "file_name": "data_control_personal.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_16",
+    "type": "premium",
+    "display_name": "Bitstream CyberBase",
+    "file_name": "blank.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_17",
+    "type": "premium",
+    "display_name": "Cavalier",
+    "file_name": "blank.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_18",
+    "type": "premium",
+    "display_name": "Balloon",
+    "file_name": "blank.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_19",
+    "type": "premium",
+    "display_name": "Bastard",
+    "file_name": "bastard.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_20",
+    "type": "premium",
+    "display_name": "Atomic Bomb",
+    "file_name": "atomic_bomb.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_21",
+    "type": "premium",
+    "display_name": "Allumeuse Flirt",
+    "file_name": "blank.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_22",
+    "type": "premium",
+    "display_name": "Aka Potsley",
+    "file_name": "aka_potsley.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_23",
+    "type": "premium",
+    "display_name": "Airplanes in the Night Sky",
+    "file_name": "airplanes_in_the_night_sky_personal.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_24",
+    "type": "premium",
+    "display_name": "A.D. MONO",
+    "file_name": "blank.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_25",
+    "type": "premium",
+    "display_name": "Austie Bost Blueberry Muffins",
+    "file_name": "austie_bost_blueberry_muffins.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_26",
+    "type": "premium",
+    "display_name": "Abaddon II",
+    "file_name": "abaddon_2.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_27",
+    "type": "premium",
+    "display_name": "Polo Brush",
+    "file_name": "blank.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_28",
+    "type": "premium",
+    "display_name": "Aerovias Brasil NF",
+    "file_name": "blank.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_29",
+    "type": "premium",
+    "display_name": "Agent Orange",
+    "file_name": "agent_orange.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_30",
+    "type": "premium",
+    "display_name": "Alfabetix",
+    "file_name": "alfabetix.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_31",
+    "type": "premium",
+    "display_name": "Annabel Script",
+    "file_name": "blank.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_32",
+    "type": "premium",
+    "display_name": "Baker Signet BT",
+    "file_name": "blank.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_33",
+    "type": "premium",
+    "display_name": "Blessed Day",
+    "file_name": "blessed_day_personal.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_34",
+    "type": "premium",
+    "display_name": "Bring Tha Noize",
+    "file_name": "bring_tha_noize_personal.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_35",
+    "type": "premium",
+    "display_name": "Cajun Boogie",
+    "file_name": "cajun_boogie_personal.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_36",
+    "type": "premium",
+    "display_name": "Chipperfield and Bailey",
+    "file_name": "chipperfield_and_bailey.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_37",
+    "type": "premium",
+    "display_name": "Crash Landing BB",
+    "file_name": "blank.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_38",
+    "type": "premium",
+    "display_name": "Dampf Platz Solid",
+    "file_name": "dampf_platzs_solid.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_39",
+    "type": "premium",
+    "display_name": "Hanging By A Thread",
+    "file_name": "hanging_by_a_thread_personal.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_40",
+    "type": "premium",
+    "display_name": "Hardkaze",
+    "file_name": "hardkaze_personal.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_41",
+    "type": "premium",
+    "display_name": "Honey Script Semi Bold",
+    "file_name": "honey_script_semi_bold.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_42",
+    "type": "premium",
+    "display_name": "Jungle Fever NF",
+    "file_name": "blank.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_43",
+    "type": "premium",
+    "display_name": "Klarissa",
+    "file_name": "blank.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_44",
+    "type": "premium",
+    "display_name": "Little Lord Fontleroy NF",
+    "file_name": "blank.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_45",
+    "type": "premium",
+    "display_name": "Apple Symbols",
+    "file_name": "blank.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_46",
+    "type": "premium",
+    "display_name": "Myriad Pro Regular",
+    "file_name": "blank.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_47",
+    "type": "premium",
+    "display_name": "MyriadPro Light",
+    "file_name": "blank.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_48",
+    "type": "premium",
+    "display_name": "Myriad Pro Bold",
+    "file_name": "myriad_pro_bold.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_49",
+    "type": "premium",
+    "display_name": "Oliver Tue Les Fourmis",
+    "file_name": "oliver_tue_les_fourmis_personal.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_50",
+    "type": "premium",
+    "display_name": "Rapscallion",
+    "file_name": "rapscallion.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_51",
+    "type": "premium",
+    "display_name": "Vanilla Whale",
+    "file_name": "vanilla_whale.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_52",
+    "type": "premium",
+    "display_name": "Vinque",
+    "file_name": "vinque.ttf",
+    "premium": false
+  },
+  {
+    "id": "premium_font_53",
+    "type": "premium",
+    "display_name": "Wedding Nightmares",
+    "file_name": "wedding_nightmares_personal.ttf",
+    "premium": false
+  }
+]

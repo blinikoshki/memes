@@ -1,0 +1,80 @@
+[
+	{
+		"width": 1080,
+		"height": 1080,
+		"type": "INSTAGRAM",
+		"title": "Post"
+	},
+	{
+		"width": 1080,
+		"height": 1350,
+		"type": "INSTAGRAM",
+		"title": "Portrait"
+	},
+	{
+		"width": 1080,
+		"height": 1920,
+		"type": "INSTAGRAM",
+		"title": "Story"
+	},
+	{
+		"width": 1080,
+		"height": 566,
+		"type": "INSTAGRAM",
+		"title": "Landscape"
+	},
+	{
+		"width": 1200,
+		"height": 628,
+		"type": "FACEBOOK",
+		"title": "Post"
+	},
+	{
+		"width": 1640,
+		"height": 624,
+		"type": "FACEBOOK",
+		"title": "Profile Cover"
+	},
+	{
+		"width": 1200,
+		"height": 675,
+		"type": "FACEBOOK",
+		"title": "Page Cover"
+	},
+	{
+		"width": 1920,
+		"height": 1005,
+		"type": "FACEBOOK",
+		"title": "Event Cover"
+	},
+	{
+		"width": 1200,
+		"height": 670,
+		"type": "TWITTER",
+		"title": "Post"
+	},
+	{
+		"width": 1500,
+		"height": 500,
+		"type": "TWITTER",
+		"title": "Header"
+	},
+	{
+		"width": 1024,
+		"height": 512,
+		"type": "TWITTER",
+		"title": "Timeline"
+	},
+	{
+		"width": 1000,
+		"height": 1500,
+		"type": "PINTEREST",
+		"title": "Pin"
+	},
+	{
+		"width": 1000,
+		"height": 2100,
+		"type": "PINTEREST",
+		"title": "Pin"
+	}
+]

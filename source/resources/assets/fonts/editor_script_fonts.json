@@ -1,0 +1,205 @@
+[
+  {
+    "id": "script_font_1",
+    "type": "script",
+    "display_name": "Italianno Regular",
+    "file_name": "italianno_regular.otf",
+    "premium": true
+  },
+  {
+    "id": "script_font_2",
+    "type": "script",
+    "display_name": "Kaushan Script Regular",
+    "file_name": "kaushan_script_regular.otf",
+    "premium": true
+  },
+  {
+    "id": "script_font_3",
+    "type": "script",
+    "display_name": "SF Burlington Script",
+    "file_name": "sf_burlington_script.ttf",
+    "premium": true
+  },
+  {
+    "id": "script_font_4",
+    "type": "script",
+    "display_name": "SF Burlington Script Italic",
+    "file_name": "sf_burlington_script_italic.ttf",
+    "premium": true
+  },
+  {
+    "id": "script_font_5",
+    "type": "script",
+    "display_name": "SF Burlington Script Bold",
+    "file_name": "sf_burlington_script_bold.ttf",
+    "premium": true
+  },
+  {
+    "id": "script_font_6",
+    "type": "script",
+    "display_name": "SF Burlington Script Bold Italic",
+    "file_name": "sf_burlington_script_bold_italic.ttf",
+    "premium": true
+  },
+  {
+    "id": "script_font_7",
+    "type": "script",
+    "display_name": "Amita Regular",
+    "file_name": "amita_regular.ttf",
+    "premium": true
+  },
+  {
+    "id": "script_font_8",
+    "type": "script",
+    "display_name": "Amita Bold",
+    "file_name": "amita_bold.ttf",
+    "premium": true
+  },
+  {
+    "id": "script_font_9",
+    "type": "script",
+    "display_name": "England Hand DB",
+    "file_name": "england_hand_db.ttf",
+    "premium": true
+  },
+  {
+    "id": "script_font_10",
+    "type": "script",
+    "display_name": "Euphoria Script Regular",
+    "file_name": "euphoria_script_regular.otf",
+    "premium": true
+  },
+  {
+    "id": "script_font_11",
+    "type": "script",
+    "display_name": "Grand Hotel Regular",
+    "file_name": "grand_hotel_regular.otf",
+    "premium": true
+  },
+  {
+    "id": "script_font_12",
+    "type": "script",
+    "display_name": "Great Vibes Regular",
+    "file_name": "great_vibes_regular.otf",
+    "premium": true
+  },
+  {
+    "id": "script_font_13",
+    "type": "script",
+    "display_name": "Henry Morgan Hand",
+    "file_name": "henry_morgan_hand.ttf",
+    "premium": true
+  },
+  {
+    "id": "script_font_14",
+    "type": "script",
+    "display_name": "Herr Von Muellerhoff Regular",
+    "file_name": "herr_von_muellerhoff_regular.otf",
+    "premium": true
+  },
+  {
+    "id": "script_font_15",
+    "type": "script",
+    "display_name": "Homemade Apple",
+    "file_name": "homemade_apple.ttf",
+    "premium": true
+  },
+  {
+    "id": "script_font_16",
+    "type": "script",
+    "display_name": "Freebooter Script",
+    "file_name": "freebooter_script.ttf",
+    "premium": true
+  },
+  {
+    "id": "script_font_17",
+    "type": "script",
+    "display_name": "Freebooter Script Alts",
+    "file_name": "freebooter_script_alts.ttf",
+    "premium": true
+  },
+  {
+    "id": "script_font_18",
+    "type": "script",
+    "display_name": "Arizonia Regular",
+    "file_name": "arizonia_regular.ttf",
+    "premium": true
+  },
+  {
+    "id": "script_font_19",
+    "type": "script",
+    "display_name": "Bilbo Regular",
+    "file_name": "bilbo_regular.otf",
+    "premium": true
+  },
+  {
+    "id": "script_font_20",
+    "type": "script",
+    "display_name": "Bilbo Swash Caps Regular",
+    "file_name": "bilbo_swash_caps_regular.otf",
+    "premium": true
+  },
+  {
+    "id": "script_font_21",
+    "type": "script",
+    "display_name": "Black Jack",
+    "file_name": "black_jack.otf",
+    "premium": true
+  },
+  {
+    "id": "script_font_22",
+    "type": "script",
+    "display_name": "CAC Champagne",
+    "file_name": "cac_champagne.ttf",
+    "premium": true
+  },
+  {
+    "id": "script_font_23",
+    "type": "script",
+    "display_name": "Carrington",
+    "file_name": "carrington.ttf",
+    "premium": true
+  },
+  {
+    "id": "script_font_24",
+    "type": "script",
+    "display_name": "Dancing Script OT",
+    "file_name": "dancing_script_regular.otf",
+    "premium": true
+  },
+  {
+    "id": "script_font_25",
+    "type": "script",
+    "display_name": "Digory Doodles",
+    "file_name": "blank.ttf",
+    "premium": true
+  },
+  {
+    "id": "script_font_26",
+    "type": "script",
+    "display_name": "Dobkin Plain",
+    "file_name": "dobkin_plain.ttf",
+    "premium": true
+  },
+  {
+    "id": "script_font_27",
+    "type": "script",
+    "display_name": "Dynalight Regular",
+    "file_name": "dynalight_regular.otf",
+    "premium": true
+  },
+  {
+    "id": "script_font_28",
+    "type": "script",
+    "display_name": "Allura Regular",
+    "file_name": "allura_regular.otf",
+    "premium": true
+  },
+  {
+    "id": "script_font_29",
+    "type": "script",
+    "display_name": "Aguafina Script Regular",
+    "file_name": "aguafina_script_regular.ttf",
+    "premium": true
+  }
+]

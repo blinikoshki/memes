@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="snap_connect_login_button_text">连接至 Snapchat</string>
+    <string name="snap_connect_snap_error_cannot_share_content">无法将此内容分享到 Snapchat</string>
+    <string name="ucrop_label_edit_photo">裁剪</string>
+    <string name="ucrop_label_original">原始比例</string>
+    <string name="ucrop_menu_crop">裁剪</string>
+</resources>

@@ -1,0 +1,68 @@
+[
+	{
+		"width": -1,
+		"height": -1,
+		"thumb_name": "custom.png",
+		"title": "Custom"
+	},
+	{
+		"width": 1080,
+		"height": 639,
+		"thumb_name": "fb_landscape.png",
+		"title": "Landscape"
+	},
+	{
+		"width": 1080,
+		"height": 1492,
+		"thumb_name": "fb_portrait.png",
+		"title": "Portrait"
+	},
+	{
+		"width": 1080,
+		"height": 1080,
+		"thumb_name": "fb_square.png",
+		"title": "Square"
+	},
+	{
+		"width": 1080,
+		"height": 1592,
+		"thumb_name": "fb_story.png",
+		"title": "Landscape"
+	},
+	{
+		"width": 1080,
+		"height": 639,
+		"thumb_name": "insta_landscape.png",
+		"title": "Landscape"
+	},
+	{
+		"width": 1080,
+		"height": 1492,
+		"thumb_name": "insta_portrait.png",
+		"title": "Portrait"
+	},
+	{
+		"width": 1080,
+		"height": 1080,
+		"thumb_name": "insta_square.png",
+		"title": "Square"
+	},
+	{
+		"width": 1080,
+		"height": 1592,
+		"thumb_name": "insta_story.png",
+		"title": "Story"
+	},
+	{
+		"width": 1080,
+		"height": 1492,
+		"thumb_name": "pin_portrait.png",
+		"title": "Portrait"
+	},
+	{
+		"width": 1080,
+		"height": 639,
+		"thumb_name": "twitter_landscape.png",
+		"title": "Landscape"
+	}
+]

@@ -1,0 +1,114 @@
+[
+	{
+		"width": -1,
+		"height": -1,
+		"type": "CUSTOM",
+		"thumb_name": "custom.png",
+		"title": "Custom"
+	},
+	{
+		"width": 1080,
+		"height": 1920,
+		"type": "INSTAGRAM",
+		"thumb_name": "insta_story.png",
+		"title": "Story"
+	},
+	{
+		"width": 1080,
+		"height": 1080,
+		"type": "INSTAGRAM",
+		"thumb_name": "insta_square.png",
+		"title": "Square"
+	},
+	{
+		"width": 1080,
+		"height": 1350,
+		"type": "INSTAGRAM",
+		"thumb_name": "insta_portrait.png",
+		"title": "Portrait"
+	},
+	{
+		"width": 1080,
+		"height": 566,
+		"type": "INSTAGRAM",
+		"thumb_name": "insta_landscape.png",
+		"title": "Landscape"
+	},
+	{
+		"width": 1080,
+		"height": 1920,
+		"type": "FACEBOOK",
+		"thumb_name": "fb_story.png",
+		"title": "Story"
+	},
+	{
+		"width": 1080,
+		"height": 1080,
+		"type": "FACEBOOK",
+		"thumb_name": "fb_square.png",
+		"title": "Square"
+	},
+	{
+		"width": 1200,
+		"height": 628,
+		"type": "FACEBOOK",
+		"thumb_name": "fb_landscape.png",
+		"title": "Post"
+	},
+	{
+		"width": 1640,
+		"height": 624,
+		"type": "FACEBOOK",
+		"thumb_name": "fb_landscape.png",
+		"title": "Profile Cover"
+	},
+	{
+		"width": 1200,
+		"height": 675,
+		"type": "FACEBOOK",
+		"thumb_name": "fb_landscape.png",
+		"title": "Page Cover"
+	},
+	{
+		"width": 1920,
+		"height": 1005,
+		"type": "FACEBOOK",
+		"thumb_name": "fb_landscape.png",
+		"title": "Event Cover"
+	},
+	{
+		"width": 1200,
+		"height": 670,
+		"type": "TWITTER",
+		"thumb_name": "twitter_landscape.png",
+		"title": "Post"
+	},
+	{
+		"width": 1500,
+		"height": 500,
+		"type": "TWITTER",
+		"thumb_name": "twitter_landscape.png",
+		"title": "Header"
+	},
+	{
+		"width": 1024,
+		"height": 512,
+		"type": "TWITTER",
+		"thumb_name": "twitter_landscape.png",
+		"title": "Timeline"
+	},
+	{
+		"width": 1000,
+		"height": 1500,
+		"type": "PINTEREST",
+		"thumb_name": "pin_portrait.png",
+		"title": "Pin"
+	},
+	{
+		"width": 1000,
+		"height": 2100,
+		"type": "PINTEREST",
+		"thumb_name": "pin_portrait.png",
+		"title": "Pin"
+	}
+]

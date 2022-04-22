@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:shape="oval">
+    <corners android:radius="@dimen/_100sdp"/>
+    <solid android:color="@color/MemeBackgroundcolor"/>
+    <stroke android:width="@dimen/_1sdp" android:color="@color/light_gray"/>
+</shape>

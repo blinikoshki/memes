@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.memes.commons.aspectratio.AspectRatioFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/post_media_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_2sdp" app:resize_mode="1">
+    <com.makeramen.roundedimageview.RoundedImageView android:id="@+id/post_content_image_view" android:background="@color/bg_primary_surface" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" app:riv_corner_radius="@dimen/_5sdp" app:riv_mutate_background="true"/>
+    <ImageView android:layout_gravity="top|right|center_vertical|center_horizontal|center|end" android:id="@+id/post_content_type_view" android:padding="@dimen/_2sdp" android:layout_width="@dimen/_20sdp" android:layout_height="@dimen/_20sdp" android:src="@drawable/ic_video_content" app:tint="@color/white"/>
+    <include android:id="@+id/included_media_progress_layout" layout="@layout/snippet_post_media_progress_bar"/>
+</com.memes.commons.aspectratio.AspectRatioFrameLayout>

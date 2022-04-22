@@ -1,0 +1,191 @@
+    case squareButton = "Square Mode Edit Page"
+    case watermarkIAPButton = "Watermark IAP Edit Page"
+
+    //Main editor tools
+    case alignEditTools = "ALign Edit Tools"
+    case colorEditTools = "Color Edit Tools"
+    case applyEditTools = "Apply Edit Tools"
+    case cancelEditTools = "Camcel Edit Tools"
+
+
+    //  LOG FOR ALL FRAMES
+    case frameCancel = "Cancel Frames"
+    case appLyFrames = "Apply frames"
+
+    // Gif logs search view
+    case customCategory = "Custom category"
+    case backGifButton = "Back Gifs"
+    case searchMenuButton = "Category Gifs"
+    case searchBartext = "Search Gifs"
+
+    //Home controller logs
+    case memeHomeHeader = "Memes header home"
+    case inpBannerHome = "IAP Banner Home"
+
+    //Meme media selection logs
+    case backMediaButton = "Back Media Page"
+    case seeAllPhotosButton = "See All Your Photos"
+    case seeAllVideoButton = "See All Your Videos"
+    case seeAllMemesButton = "See All Your Memes"
+    case seeAllGifsButton = "See All Your Gifs"
+
+
+    // New sharing screen logs
+    case cancelShare = "Cancel Share"
+    case searchContact = "Search Contact Share"
+    case typeNumber = "Type a Number Share"
+    case messengerShare = "Messenger Share"
+    case copyLinkShare = "Copy link Share"
+    case emailShare = "Email Share"
+    case faceBookShare = "facebook Share"
+
+    // create new popup
+    case yesCreateButton = "Yes Save_Share New Nag"
+    case cancelCreateNew = "Cancel Save_Share New Nag"
+
+    //Post meme
+    case doneDescriptionKeyboard = "Done Save_Share Keyboard"
+    case saveShareHash = "Save_Share Keyboard"
+    case saveShareAT = "hashtag Save_Share Keyboard"
+
+    case addCaptionSaveShare = "Add Caption Save_Share"
+    case newSaveShare = "New Save_Share"
+
+    // AppEvents.logEvent(FBLogs.VideoSelected.rawValue)
+
+    //Meme Watermark editing
+    case downWatermark = "Down Watermark"
+    case upWatermark = "Up Watermark"
+    case leftWatermark = "Left Watermark"
+    case rightWatermark = "Right Watermark"
+    case rotateWatermarkSlider = "Rotate Watermark"
+    case sizeWatermarkSlider = "Size Watermark"
+    case oapcityWatermarkSlider = "Opacity Watermark"
+    case shadwoWatermarkSlider = "Shadow Watermark"
+    case blurWatermarkSlider = "Blur Watermark"
+    case shadwoRotateWatermarkSlider = "Shadow Rotate Watermark"
+    case toolsWatermarkKeyboard = "Tools Watermark"
+    case fontsWatermarkKeyboard = "Fonts Watermark"
+    case typeTextWatermarkKeyboard = "Type Watermark"
+    case colorWatermarkKeyboard = "Color Watermark"
+    case editWatermarkKeyboard = "Edit Watermark"
+    case doneWatermarkKeyboard = "Done Watermark"
+
+
+
+    //Main Editor Watermark edit view
+    case inappBannerWatermar = "IAP Banner Watermark"
+    case yourLogoWatermar = "Your Logo Watermark"
+    case cancelWatermar = "Cancel Watermark"
+    case textWatermark = "Text Watermark"
+    case saveWatermar = "Save Watermark"
+    case applyWatermark = "Apply Watermark"
+
+
+
+
+
+    case YourPhotos                 =   "Your_Photos"
+    case StockPhotos                =    "Stock_Photos"
+    case Camera                     =    "Camera"
+    case HomePageProBanner          =    "Home_Page_Pro_Banner"
+    case Settings                   =    "Settings"
+    case Feedback                   =    "Feedback"
+    case SettingsUnlockEverything   =    "Settings_Unlock_Everything"
+    case SettingsRemoveWatermark    =    "Settings_Remove_Watermark"
+    case SettingsStore              =    "Settings_Store"
+    case TapToRemoveWatermark       =    "Tap_To_Remove_Watermark"
+    case Layout1                    =    "Layout_1"
+    case Layout2                    =    "Layout_2"
+    case Stickers                   =    "Stickers"
+    case AddWatermark               =    "Add_Watermark"
+    case ProFrameLayout1            =    "Pro_Frame_Layout_1"
+    case ProFrameLayout2            =    "Pro_Frame_Layout_2"
+    case ProStickers                =    "Pro_Stickers"
+    case ProAddWatermark            =    "Pro_Add_Watermark"
+    case TapToUnlockStickers        =    "Tap_To_Unlock_Stickers"
+    case StoreFrameBanner           =    "Store_Frame_Banner"
+    case StoreAddWatermarkBanner    =    "Store_Add_Watermark_Banner"
+    case StoreStickersBanner        =    "Store_Stickers_Banner"
+    case StoreWatermarkBanner       =    "Store_Watermark_Banner"
+    case StoreAllFrames             =    "Store_All_Frames"
+    case StoreAllStickers           =    "Store_All_Stickers"
+    case StoreAddWatermark          =    "Store_Add_Watermark"
+    case StoreRemoveWatermark       =    "Store_Remove_Watermark"
+    case StoreRemoveAds             =    "Store_Remove_Ads"
+    case StoreUnlockEverything      =    "Store_Unlock_Everything"
+    case SaveBack                   =    "Save_Back"
+    case SaveNew                    =    "Save_New"
+    case SaveFacebook               =    "Save_Facebook"
+    case SaveInstagram              =    "Save_Instagram"
+    case SaveTwitter                =    "Save_Twitter"
+    case SaveToCameraRoll           =    "Save_To_Camera_Roll"
+    case SaveMoreOptions            =    "Save_More_Options"
+    case SaveMoreOptionsMessenger   =    "Save_More_Options_Messenger"
+    case Findmore                   =    "Find_More"
+
+    // new fb logs
+    case cropSelection              =    "Crop_Selection"
+    case adjustFeature              =    "Adjust_Selection"
+    case fontSelection              =    "Font_Selection"
+    case textAdjust                 =    "Text_Adjust_Selection"
+    case colorSelection             =    "Color_Selection"
+    case textAlignment              =    "Text_Alignment"
+    case borderSelection            =    "Border_Selection"
+    case cornerSelection            =    "Corner_Selection"
+    case yourLogoSelection          =    "Your_Logo_Selection"
+    case saveWatermark              =    "Save_Watermark"
+    case saveProgress               =    "Save_Progress"
+
+
+    // fblogs for gif section
+    case GifSection                 =    "GifSection"
+    case GifSearch                  =    "GifSearch"
+    case GifSelected                =    "GifSelected"
+    case GifCategorySelect          =    "GifCategorySelect"
+    case GifLayout                  =    "GifLayout"
+    case GifStickers                =    "GifStickers"
+    case GifWaterMark               =    "GifWaterMark"
+    case GifStickerSelect           =    "GifStickerSelect"
+    case GifStickerCategory         =    "GifStickerCategory"
+    case GifAddTapToAddWaterMark    =    "GifAddTapToAddWaterMark"
+    case GifPhotoWaterMark          =    "GifPhotoWaterMark"
+    case GifTextWaterMark           =    "GifTextWaterMark"
+    case GifSave                    =    "GifSave"
+    case GifSaveAsGif               =    "GifSaveAsGif"
+    case GifSaveAsVideo             =    "GifSaveAsVideo"
+    case GifShareWithFacebook       =    "GifShareWithFacebook"
+    case GifShareWithInstagram      =    "GifShareWithInstagram"
+    case GifSaveToGallery           =    "GifSaveToGallery"
+    case GifSaveMoreOptions         =    "GifSaveMoreOptions"
+    case GifProFrames               =    "GifProFrames"
+    case GifRemoveWatermark         =    "GifRemoveWatermark"
+    case GifProStickerCategory      =    "GifProStickerCategory"
+
+
+    // fblogs for video section
+    case VideoSection               =    "VideoSection"
+    case VideoSelected              =    "VideoSelected"
+    case VideoSoundMute             =    "VideoSoundMute"
+    case VideoLayout                =    "VideoLayout"
+    case VideoStickers              =    "VideoStickers"
+    case VideoWaterMark             =    "VideoWaterMark"
+    case VideoStickerSelect         =    "VideoStickerSelect"
+    case VideoStickerCategory       =    "VideoStickerCategory"
+    case VideoAddTapToAddWaterMark  =    "VideoAddTapToAddWaterMark"
+    case VideoPhotoWaterMark        =    "VideoPhotoWaterMark"
+    case VideoTextWaterMark         =    "VideoTextWaterMark"
+    case VideoSave                  =    "VideoSave"
+    case VideoShareWithFacebook     =    "VideoShareWithFacebook"
+    case VideoShareWithInstagram    =    "VideoShareWithInstagram"
+    case VideoSaveToGallery         =    "VideoSaveToGallery"
+    case VideoSaveMoreOptions       =    "VideoSaveMoreOptions"
+    case VideoProFrames             =    "VideoProFrames"
+    case VideoRemoveWatermark       =    "VideoRemoveWatermark"
+    case VideoProStickerCategory    =    "VideoProStickerCategory"
+
+
+
+    // MARK NEW FRAMES VIEW
+    case newframesViewSelected      =    "newframesViewSelected"
+}

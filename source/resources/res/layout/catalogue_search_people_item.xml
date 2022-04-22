@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_vertical" android:orientation="horizontal" android:background="?attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.memes.plus.custom.UserAvatarView android:id="@+id/search_result_person_image_view" android:layout_width="@dimen/_32sdp" android:layout_height="@dimen/_32sdp" android:layout_margin="@dimen/_8sdp"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/_12ssp" android:textColor="@color/primary_text" android:id="@+id/search_result_person_name_text_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Andres Hannison" android:maxLines="1"/>
+        <TextView android:textSize="@dimen/_10ssp" android:textColor="@color/primary_text" android:id="@+id/search_result_person_followers_text_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="18 Followers" android:maxLines="1"/>
+    </LinearLayout>
+</LinearLayout>

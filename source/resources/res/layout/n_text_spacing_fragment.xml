@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Generator.Sheet">
+    <editor.common.sheetheader.TitleWithResetHeader android:id="@+id/header" android:layout_width="match_parent" android:layout_height="@dimen/generator_sheet_header_height"/>
+    <editor.custom.valueslider.ValueSlider android:id="@+id/letter_spacing_slider" android:paddingLeft="@dimen/_16sdp" android:paddingRight="@dimen/_16sdp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_16sdp" android:paddingHorizontal="@dimen/_16sdp" app:vs_title="@string/letter_spacing"/>
+    <editor.custom.valueslider.ValueSlider android:id="@+id/line_spacing_slider" android:paddingLeft="@dimen/_16sdp" android:paddingRight="@dimen/_16sdp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_8sdp" android:paddingHorizontal="@dimen/_16sdp" app:vs_title="@string/line_spacing"/>
+    <editor.common.sheetfooter.CancelDoneFooter android:id="@+id/footer" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

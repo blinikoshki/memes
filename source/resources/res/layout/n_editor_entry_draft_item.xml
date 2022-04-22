@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.memes.commons.aspectratio.AspectRatioFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/aspect_ratio_frame_layout" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/_4sdp" android:layout_marginRight="@dimen/_4sdp" android:animateLayoutChanges="true" android:stateListAnimator="@animator/scale_touch_effect" android:layout_marginHorizontal="@dimen/_4sdp" app:resize_mode="2">
+    <ImageView android:id="@+id/thumbnail_image_view" android:background="?attr/colorSurface" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY"/>
+</com.memes.commons.aspectratio.AspectRatioFrameLayout>

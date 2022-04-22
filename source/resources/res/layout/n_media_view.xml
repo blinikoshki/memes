@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <ImageView android:id="@+id/photo_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.google.android.exoplayer2.p024ui.PlayerView android:id="@+id/video_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" app:controller_layout_id="@layout/n_video_overlay_controls" app:surface_type="2"/>
+    <LinearLayout android:layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" android:orientation="horizontal" android:id="@+id/media_controls_layout" android:padding="@dimen/_2sdp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/playback_toggle_button" android:background="@drawable/n_circular_edges_shape" android:padding="@dimen/_4sdp" android:layout_width="@dimen/_24sdp" android:layout_height="@dimen/_24sdp" android:src="@drawable/n_media_playback_toggle" android:alpha="0.6" android:layout_marginEnd="@dimen/_4sdp" android:backgroundTint="?attr/colorSurface"/>
+        <ImageView android:id="@+id/volume_toggle_button" android:background="@drawable/n_circular_edges_shape" android:padding="@dimen/_4sdp" android:visibility="gone" android:layout_width="@dimen/_24sdp" android:layout_height="@dimen/_24sdp" android:src="@drawable/n_media_volume_toggle" android:alpha="0.6" android:backgroundTint="?attr/colorSurface"/>
+    </LinearLayout>
+    <ImageView android:layout_gravity="center" android:id="@+id/placeholder_view" android:layout_width="wrap_content" android:layout_height="@dimen/_56sdp" android:layout_margin="@dimen/_16sdp" android:src="@drawable/n_media_placeholder"/>
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:animateLayoutChanges="true">
+    <TextView android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/message_text_view" android:layout_width="0dp" android:layout_height="match_parent" android:maxLines="1" android:lines="1" android:layout_weight="1" style="@style/MediaSelectionCategory.Title.Error"/>
+    <ProgressBar android:id="@+id/progress_bar" android:padding="@dimen/_8sdp" android:layout_width="@dimen/_36sdp" android:layout_height="match_parent" android:indeterminate="true" android:indeterminateTint="?attr/colorHighlightPrimary"/>
+    <TextView android:textAppearance="@style/MediaSelectionCategory.ActionButtonTextAppearance.Error" android:gravity="center" android:id="@+id/retry_view" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/media_selection_action_retry" style="@style/MediaSelectionCategory.ActionButton"/>
+</merge>

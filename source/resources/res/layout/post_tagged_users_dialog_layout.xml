@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_32sdp" android:layout_marginTop="@dimen/_8sdp" android:layout_marginRight="@dimen/_32sdp" android:layout_marginBottom="@dimen/_8sdp" android:layout_marginHorizontal="@dimen/_32sdp" android:layout_marginVertical="@dimen/_8sdp" app:cardBackgroundColor="@color/bg_primary" app:cardCornerRadius="@dimen/_16sdp" app:cardElevation="@dimen/_8sdp">
+        <LinearLayout android:orientation="vertical" android:clipChildren="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.memes.commons.contentlayout.ContentLayout android:id="@+id/content_layout" android:layout_width="match_parent" android:layout_height="@dimen/_160sdp">
+                <androidx.recyclerview.widget.RecyclerView android:id="@+id/tags_recycler_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            </com.memes.commons.contentlayout.ContentLayout>
+            <TextView android:textSize="@dimen/_14ssp" android:textColor="@color/dim_white" android:gravity="center" android:id="@+id/hide_dialog_view" android:background="@color/bg_primary_surface" android:padding="@dimen/_8sdp" android:layout_width="match_parent" android:layout_height="wrap_content" android:fontFamily="@font/sf_ui_display_bold"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

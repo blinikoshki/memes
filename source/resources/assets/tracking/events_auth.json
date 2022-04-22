@@ -1,0 +1,21 @@
+[
+    {
+        "id": "sign_in_basic",
+		"fi": "login"
+    },
+    {
+        "id": "sign_in_facebook",
+        "fb": "facebookLogin",
+		"fi": "login"
+    },
+    {
+        "id": "sign_up_basic",
+        "af": "usersignup",
+		"fi": "sign_up"
+    },
+    {
+        "key": "sign_up_facebook",
+        "af": "usersignup",
+		"fi": "sign_up"
+    }
+]

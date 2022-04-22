@@ -1,0 +1,26 @@
+[
+    {
+        "id": "page_comments",
+        "fb": "commentsOpened"
+    },
+    {
+        "id": "new_post_comment",
+        "af": "commentsadded"
+    },
+    {
+        "id": "comment_liked",
+        "fb": "commentLiked"
+    },
+    {
+        "id": "photo_comment_liked",
+        "fb": "photoCommentLiked"
+    },
+    {
+        "id": "reply_liked",
+        "fb": "replyCommentLiked"
+    },
+    {
+        "id": "photo_reply_liked",
+        "fb": "replyPhotoCommentLiked"
+    }
+]

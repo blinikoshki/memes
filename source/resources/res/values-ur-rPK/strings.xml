@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="snap_connect_login_button_text">Snapchat سے مربوط ہوں</string>
+    <string name="snap_connect_snap_error_cannot_share_content">یہ مواد Snapchat پر شیئر نہيں کر سکتے</string>
+</resources>

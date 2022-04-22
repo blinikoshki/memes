@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="?attr/colorSurface" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" android:elevation="@dimen/_4sdp">
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/crop" android:layout_weight="1" style="@style/Generator.CropOption.PageTitle"/>
+        <ImageView android:id="@+id/reset_selection_view" android:background="?attr/selectableItemBackgroundBorderless" android:padding="@dimen/_8sdp" android:layout_width="@dimen/_36sdp" android:layout_height="@dimen/_36sdp" android:src="@drawable/icon_crop_clear" android:tint="@color/white"/>
+    </LinearLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <editor.tools.crop.lib.CropImageView android:layout_gravity="center" android:id="@+id/crop_image_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/_20sdp" android:layout_marginBottom="@dimen/_20sdp" app:cropGuidelines="2" app:cropInitialCropWindowPaddingRatio="0" app:cropMinCropWindowHeight="@dimen/_90sdp" app:cropMinCropWindowWidth="@dimen/_90sdp"/>
+    </FrameLayout>
+    <View android:background="@color/colorCropOptionDivider" android:layout_width="match_parent" android:layout_height="1px"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/crop_options_recycler_view" android:background="?attr/colorSurface" android:paddingLeft="@dimen/_16sdp" android:paddingTop="@dimen/_8sdp" android:paddingRight="@dimen/_16sdp" android:paddingBottom="@dimen/_8sdp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="@dimen/_120sdp" android:paddingHorizontal="@dimen/_16sdp" android:paddingVertical="@dimen/_8sdp"/>
+    <editor.common.sheetfooter.CancelDoneFooter android:id="@+id/footer" android:background="?attr/colorSurface" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

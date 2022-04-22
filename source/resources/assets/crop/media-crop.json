@@ -1,0 +1,46 @@
+[
+	{
+		"aspectX": 1,
+		"aspectY": 1
+	},
+	{
+		"aspectX": 1,
+		"aspectY": 2
+	},
+	{
+		"aspectX": 2,
+		"aspectY": 1
+	},
+	{
+		"aspectX": 3,
+		"aspectY": 2
+	},
+	{
+		"aspectX": 2,
+		"aspectY": 3
+	},
+	{
+		"aspectX": 4,
+		"aspectY": 3
+	},
+	{
+		"aspectX": 3,
+		"aspectY": 4
+	},
+	{
+		"aspectX": 4,
+		"aspectY": 5
+	},
+	{
+		"aspectX": 5,
+		"aspectY": 4
+	},
+	{
+		"aspectX": 16,
+		"aspectY": 9
+	},
+	{
+		"aspectX": 9,
+		"aspectY": 16
+	}
+]

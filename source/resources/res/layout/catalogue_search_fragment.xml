@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/bg_primary" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/search_box_layout" layout="@layout/snippet_search_box_layout"/>
+    <com.google.android.material.tabs.TabLayout android:id="@+id/search_type_tab_layout" android:layout_width="match_parent" android:layout_height="wrap_content" app:tabIndicatorColor="@color/colorRealAccent" app:tabSelectedTextColor="@color/colorRealAccent" app:tabTextColor="@color/primary_text">
+        <com.google.android.material.tabs.TabItem android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="People"/>
+        <com.google.android.material.tabs.TabItem android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Tags"/>
+    </com.google.android.material.tabs.TabLayout>
+    <androidx.viewpager.widget.ViewPager android:id="@+id/catalogue_search_view_pager" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

@@ -1,0 +1,50 @@
+[
+    {
+        "id": "content_browser_opened",
+        "fb": "NemMediaPageOpened"
+    },
+    {
+        "id": "content_browser_exit",
+        "fb": "Back Media Page"
+    },
+    {
+        "id": "tap_content_browser_photos",
+        "fb": "photoSelected"
+    },
+    {
+        "id": "page_content_browser_photos",
+        "fb": "MyPhotosOnMediaPage"
+    },
+    {
+        "id": "tap_content_browser_videos",
+        "fb": "videoSelected"
+    },
+    {
+        "id": "page_content_browser_videos",
+        "fb": "MyVideosOnMediaPage"
+    },
+    {
+        "id": "tap_content_browser_gifs",
+        "fb": "gifSelected"
+    },
+    {
+        "id": "page_content_browser_gifs",
+        "fb": "MemesOnMediaPAge"
+    },
+    {
+        "id": "tap_content_browser_memes",
+        "fb": "memesSelected"
+    },
+    {
+        "id": "page_content_browser_memes",
+        "fb": "GifsOnMediaPage"
+    },
+    {
+        "id": "tap_content_browser_reddit",
+        "fb": "redditPhotoSelected"
+    },
+    {
+        "id": "page_content_browser_reddit",
+        "fb": "RedditOnMediaPage"
+    }
+]

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<editor.custom.ItemSelectorView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="@dimen/n_wireframe_preview_size" android:layout_height="@dimen/n_wireframe_preview_size" android:layout_marginLeft="@dimen/n_wireframe_preview_margin_horizontal" android:layout_marginRight="@dimen/n_wireframe_preview_margin_horizontal" android:layout_marginHorizontal="@dimen/n_wireframe_preview_margin_horizontal" app:isv_highlightTint="?attr/colorHighlightPrimary" app:isv_normalTint="@android:color/transparent">
+    <FrameLayout android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="@dimen/_2sdp">
+        <include android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/n_wireframe_preview_media"/>
+        <TextView android:textColor="@color/white" android:layout_gravity="center" android:background="#88000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/n_wf_text_here" style="@style/Generator.Wireframe.Text"/>
+    </FrameLayout>
+</editor.custom.ItemSelectorView>

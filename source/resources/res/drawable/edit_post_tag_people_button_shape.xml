@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:drawable="@drawable/icon_people_tag" android:right="@dimen/_24sdp"/>
+    <item android:drawable="@drawable/ic_edit_post_tag_people_arrow" android:left="@dimen/_24sdp"/>
+</layer-list>

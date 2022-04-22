@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/coordinator_layout" android:background="@color/bg_primary" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/included_home_posts_bar" layout="@layout/snippet_home_posts_top_bar"/>
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@+id/guideline_horizontal_90" android:layout_width="match_parent" android:layout_height="0dp" app:layout_constraintGuide_percent="0.9"/>
+        <FrameLayout android:id="@+id/parent_frame_layout" android:background="@color/white" android:clickable="true" android:layout_width="match_parent" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="@+id/guideline_horizontal_90" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+            <androidx.viewpager2.widget.ViewPager2 android:id="@+id/posts_view_pager" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@+id/fragment_container" android:background="@color/bg_primary" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+        <com.memes.plus.p040ui.home.bottomtabs.HomeBottomTabsView android:id="@+id/bottom_tabs_view" android:background="@color/black" android:layout_width="match_parent" android:layout_height="@dimen/_50sdp"/>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

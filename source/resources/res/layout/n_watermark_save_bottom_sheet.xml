@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/StyledBottomSheet.Background">
+    <View style="@style/StyledBottomSheet.Handle"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_12sdp" android:layout_marginTop="@dimen/_8sdp" android:layout_marginRight="@dimen/_12sdp" android:layout_marginBottom="@dimen/_8sdp" android:text="@string/n_save_watermark" android:layout_marginHorizontal="@dimen/_12sdp" android:layout_marginVertical="@dimen/_8sdp" style="@style/StyledBottomSheet.Title"/>
+    <TextView android:paddingLeft="@dimen/_12sdp" android:paddingRight="@dimen/_12sdp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/n_save_watermark_information_message" android:paddingHorizontal="@dimen/_12sdp" style="@style/StyledBottomSheet.Paragraph"/>
+    <TextView android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_12sdp" android:layout_marginTop="@dimen/_8sdp" android:layout_marginRight="@dimen/_12sdp" android:text="@string/n_hint_saved_watermarks_location" android:layout_marginHorizontal="@dimen/_12sdp" style="@style/StyledBottomSheet.Paragraph.HighlightedInformation"/>
+    <LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_8sdp">
+        <com.google.android.material.button.MaterialButton android:id="@+id/cancel_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" style="@style/StyledBottomSheet.Button.Normal"/>
+        <com.google.android.material.button.MaterialButton android:id="@+id/save_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/save" style="@style/StyledBottomSheet.Button.Highlighted"/>
+    </LinearLayout>
+</LinearLayout>

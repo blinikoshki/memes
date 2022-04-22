@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/StyledBottomSheet.Background">
+    <View style="@style/StyledBottomSheet.Handle"/>
+    <editor.mediaselection.items.MediaSelectionItemView android:id="@+id/media_selection_item_view" android:background="?attr/colorSurface" android:layout_width="wrap_content" android:layout_height="@dimen/_200sdp" android:layout_marginLeft="@dimen/_8sdp" android:layout_marginTop="@dimen/_4sdp" android:layout_marginRight="@dimen/_8sdp" android:layout_marginBottom="@dimen/_4sdp" android:layout_marginHorizontal="@dimen/_8sdp" style="@style/StyledBottomSheet.Title"/>
+    <LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_8sdp" android:layout_marginRight="@dimen/_8sdp" android:layout_marginBottom="@dimen/_4sdp" android:layout_marginHorizontal="@dimen/_8sdp">
+        <com.google.android.material.button.MaterialButton android:id="@+id/negative_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/media_selection_item_unselect" style="@style/StyledBottomSheet.Button.Highlighted.Danger"/>
+        <Space android:layout_width="0dp" android:layout_height="1px" android:layout_weight="1"/>
+        <com.google.android.material.button.MaterialButton android:id="@+id/positive_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/media_selection_item_preview_close" style="@style/StyledBottomSheet.Button.Normal"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <FrameLayout android:id="@+id/video_container" android:layout_width="match_parent" android:layout_height="match_parent">
+            <VideoView android:layout_gravity="center" android:id="@+id/video_view" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <ImageView android:layout_gravity="center" android:id="@+id/playback_state_toggle_view" android:layout_width="@dimen/_36sdp" android:layout_height="@dimen/_36sdp" app:elevation="@dimen/_4sdp" app:srcCompat="@drawable/icon_video_play_circle"/>
+        </FrameLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/playback_progress_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ProgressBar android:layout_width="@dimen/_36sdp" android:layout_height="@dimen/_36sdp" style="@style/Generator.VideoTrim.Progress"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_2sdp" android:text="@string/seeking_to_start_point" style="@style/Generator.VideoTrim.Text.Bold"/>
+            <TextView android:id="@+id/playback_progress_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Generator.VideoTrim.Text"/>
+        </LinearLayout>
+    </FrameLayout>
+    <include android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/included_trim_duration_upgrade_layout" android:layout_width="match_parent" android:layout_height="@dimen/_100sdp" layout="@layout/n_video_trimmer_upgrade_popup"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/controls_container" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Generator.VideoTrim.ControlSheet">
+        <FrameLayout android:id="@+id/timeline_container" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" android:layout_marginTop="@dimen/_8sdp" android:layout_marginBottom="@dimen/_4sdp">
+            <editor.tools.videotrim.timeline.BitmapTimeLineView android:id="@+id/timeline_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <ProgressBar android:layout_gravity="center" android:id="@+id/timeline_placeholder_progress_bar" android:layout_width="@dimen/_20sdp" android:layout_height="@dimen/_20sdp" style="@style/Generator.VideoTrim.Progress"/>
+            <editor.tools.videotrim.rangeseekbar.RangeSeekBarView android:id="@+id/timeline_seek_bar_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </FrameLayout>
+        <LinearLayout android:id="@+id/playback_info_container" android:paddingLeft="@dimen/_8sdp" android:paddingRight="@dimen/_8sdp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/_20sdp" android:weightSum="1" android:paddingHorizontal="@dimen/_8sdp">
+            <TextView android:gravity="start" android:id="@+id/playback_selected_range_text_view" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/Generator.VideoTrim.Text"/>
+            <TextView android:gravity="end" android:id="@+id/playback_size_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Generator.VideoTrim.Text"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="right|center_vertical|center_horizontal|center|end" android:orientation="horizontal" android:id="@+id/selection_controls_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="2">
+            <Button android:id="@+id/cancel_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" style="@style/Generator.VideoTrim.TextButton"/>
+            <Space android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+            <Button android:id="@+id/trim_options_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/trim" style="@style/Generator.VideoTrim.TextButton"/>
+            <Space android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+            <Button android:id="@+id/select_video_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/select" style="@style/Generator.VideoTrim.TextButton.Highlighted"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="right|center_vertical|center_horizontal|center|end" android:orientation="horizontal" android:id="@+id/trim_controls_bar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="1">
+            <Button android:id="@+id/cancel_trim_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" style="@style/Generator.VideoTrim.TextButton"/>
+            <Space android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+            <Button android:id="@+id/trim_video_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/trim_video" style="@style/Generator.VideoTrim.TextButton"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textColor="?attr/colorTextPrimaryOnSurface" android:gravity="center" android:background="?attr/colorSurface" android:paddingTop="@dimen/_4sdp" android:paddingBottom="@dimen/_4sdp" android:layout_width="match_parent" android:layout_height="0dp" android:text="@string/n_trim_duration_upgrade_header" android:layout_weight="1" android:lineSpacingMultiplier="1.5" android:paddingVertical="@dimen/_4sdp"/>
+    <Button android:textColor="?attr/colorTextPrimaryOnHighlight" android:id="@+id/trim_duration_upgrade_button" android:background="?attr/colorHighlightPrimary" android:layout_width="match_parent" android:layout_height="@dimen/_32sdp" android:text="@string/n_trim_duration_upgrade_button"/>
+</LinearLayout>

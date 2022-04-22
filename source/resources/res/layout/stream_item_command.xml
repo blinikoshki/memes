@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:id="@+id/tv_command" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" style="@style/text_b"/>
+    <TextView android:id="@+id/tv_arg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp" app:layout_constraintBottom_toBottomOf="@+id/tv_command" app:layout_constraintStart_toEndOf="@+id/tv_command" app:layout_constraintTop_toTopOf="@+id/tv_command" style="@style/text"/>
+    <TextView android:id="@+id/tv_des" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintHorizontal_bias="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/tv_command" style="@style/text_s"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

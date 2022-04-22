@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="@dimen/_150sdp" app:cardBackgroundColor="@color/review_card_background" app:cardCornerRadius="@dimen/_8sdp" app:cardElevation="@dimen/_3sdp" app:cardUseCompatPadding="true">
+        <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="@dimen/_10sdp">
+            <TextView android:textSize="@dimen/_12sdp" android:textColor="@color/black" android:id="@+id/user_name_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="My Review" android:fontFamily="@font/sf_ui_text_semi_bold"/>
+            <RatingBar android:id="@+id/rating_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_4sdp" android:max="5" android:numStars="5" android:rating="5" android:layout_below="@+id/user_name_text_view" android:progressTint="@color/rating_progress_color" style="@style/Widget.AppCompat.RatingBar.Small"/>
+            <TextView android:textColor="@color/black" android:id="@+id/review_text_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="mvmsmmmmmvmvmvmmvvmvvmvvmmvmvmv" android:layout_below="@+id/rating_bar" android:fontFamily="@font/sf_ui_display_regular"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

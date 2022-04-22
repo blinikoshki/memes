@@ -1,0 +1,30 @@
+[
+    {
+        "id": "tap_explore_nav",
+        "fb": "Explore Button"
+    },
+    {
+        "id": "explore_people",
+        "fb": "People Explore"
+    },
+    {
+        "id": "explore_tags",
+        "fb": "Tags Explore"
+    },
+    {
+        "id": "explore_search_back",
+        "fb": "Cancel Explore"
+    },
+    {
+        "id": "explore_search",
+        "fb": "Search Explore"
+    },
+    {
+        "id": "explore_linear_browser",
+        "fb": "Big thumbnail Explore"
+    },
+    {
+        "id": "explore_grid_browser",
+        "fb": "Small Thumbnail Explore"
+    }
+]

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:background="?attr/selectableItemBackground" android:layout_width="@dimen/_90sdp" android:layout_height="@dimen/_28sdp" android:layout_marginEnd="@dimen/_8sdp">
+    <ImageView android:gravity="left|center_vertical|center_horizontal|center|start" android:paddingTop="@dimen/_6sdp" android:paddingBottom="@dimen/_6sdp" android:layout_width="@dimen/_96sdp" android:layout_height="@dimen/_28sdp" android:src="@drawable/ic_giphy_brand_logo" android:scaleType="fitCenter" android:layout_marginEnd="@dimen/_8sdp" android:paddingVertical="@dimen/_6sdp"/>
+</LinearLayout>

@@ -1,0 +1,100 @@
+[
+  {
+    "id": "classic_font_1",
+    "type": "classic",
+    "display_name": "Arial",
+    "file_name": "arial.ttf",
+    "premium": true
+  },
+  {
+    "id": "classic_font_2",
+    "type": "classic",
+    "display_name": "Noteworthy Bold",
+    "file_name": "noteworthy_bold.ttf",
+    "premium": true
+  },
+  {
+    "id": "classic_font_3",
+    "type": "classic",
+    "display_name": "Noteworthy Light",
+    "file_name": "noteworthy_light.ttf",
+    "premium": true
+  },
+  {
+    "id": "classic_font_4",
+    "type": "classic",
+    "display_name": "Aileron Regular",
+    "file_name": "aileron_regular.otf",
+    "premium": true
+  },
+  {
+    "id": "classic_font_5",
+    "type": "classic",
+    "display_name": "Bebas",
+    "file_name": "bebas.ttf",
+    "premium": true
+  },
+  {
+    "id": "classic_font_6",
+    "type": "classic",
+    "display_name": "Helvetica Neue Medium",
+    "file_name": "helvetica_neue_medium.ttf",
+    "premium": true
+  },
+  {
+    "id": "classic_font_7",
+    "type": "classic",
+    "display_name": "Helvetica Neue Thin",
+    "file_name": "helvetica_neue_thin.ttf",
+    "premium": true
+  },
+  {
+    "id": "classic_font_8",
+    "type": "classic",
+    "display_name": "Caviar Dreams",
+    "file_name": "caviar_dreams.ttf",
+    "premium": true
+  },
+  {
+    "id": "classic_font_9",
+    "type": "classic",
+    "display_name": "AmaticSC Regular",
+    "file_name": "amaticsc_regular.ttf",
+    "premium": true
+  },
+  {
+    "id": "classic_font_10",
+    "type": "classic",
+    "display_name": "Lobster 1.4",
+    "file_name": "lobster_1.4.otf",
+    "premium": true
+  },
+  {
+    "id": "classic_font_11",
+    "type": "classic",
+    "display_name": "KB The End is Broken",
+    "file_name": "kb_the_end_is_broken.ttf",
+    "premium": true
+  },
+  {
+    "id": "classic_font_12",
+    "type": "classic",
+    "display_name": "Ipanema Secco",
+    "file_name": "ipanema_secco.ttf",
+    "premium": true
+  },
+  {
+    "id": "classic_font_13",
+    "type": "classic",
+    "display_name": "KB Pay The Lady",
+    "file_name": "kb_pay_the_lady.ttf",
+    "premium": true
+  },
+  {
+    "id": "classic_font_14",
+    "type": "classic",
+    "display_name": "Stallions",
+    "file_name": "stallions_personal.ttf",
+    "premium": true
+  }
+]

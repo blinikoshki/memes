@@ -1,0 +1,32 @@
+[
+    {
+        "id": "tap_post_like",
+        "fb": "Meme_liked, Likes Home",
+        "af": "postlikes"
+    },
+    {
+        "id": "tap_post_profile_pic",
+        "fb": "Profile Pic Home"
+    },
+    {
+        "id": "tap_post_options",
+        "fb": "3 Dots Home"
+    },
+    {
+        "id": "tap_post_save",
+        "af": "postsaves",
+        "fb": "Save Meme Home"
+    },
+    {
+        "id": "tap_post_share",
+        "fb": "Home_feed_sharing, Share Home"
+    },
+    {
+        "id": "tap_hashtag",
+        "fb": "hashTagTapped"
+    },
+    {
+        "id": "tap_user_mention",
+        "fb": "peopleTapped"
+    }
+]

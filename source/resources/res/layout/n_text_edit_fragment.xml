@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingLeft="@dimen/_10sdp" android:paddingTop="@dimen/_12sdp" android:paddingRight="@dimen/_10sdp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/_10sdp">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="6">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@+id/bold_option_view" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/icon_bold" android:layout_weight="1" style="@style/Generator.SheetIconButton.Left"/>
+        <Space android:layout_width="1dp" android:layout_height="1dp"/>
+        <androidx.appcompat.widget.AppCompatImageView android:id="@+id/italic_option_view" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/icon_italic" android:layout_weight="1" style="@style/Generator.SheetIconButton.Center"/>
+        <Space android:layout_width="1dp" android:layout_height="1dp"/>
+        <androidx.appcompat.widget.AppCompatImageView android:id="@+id/underline_option_view" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/icon_underlined" android:layout_weight="1" style="@style/Generator.SheetIconButton.Right"/>
+        <Space android:layout_width="@dimen/_6sdp" android:layout_height="1dp"/>
+        <androidx.appcompat.widget.AppCompatImageView android:id="@+id/align_left_option_view" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/icon_align_left" android:layout_weight="1" style="@style/Generator.SheetIconButton.Left"/>
+        <Space android:layout_width="1dp" android:layout_height="1dp"/>
+        <androidx.appcompat.widget.AppCompatImageView android:id="@+id/align_center_option_view" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/icon_align_center" android:layout_weight="1" style="@style/Generator.SheetIconButton.Center"/>
+        <Space android:layout_width="1dp" android:layout_height="1dp"/>
+        <androidx.appcompat.widget.AppCompatImageView android:id="@+id/align_right_option_view" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/icon_align_right" android:layout_weight="1" style="@style/Generator.SheetIconButton.Right"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_6sdp" android:weightSum="6">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@+id/all_caps_option_view" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/icon_all_caps" android:layout_weight="1" style="@style/Generator.SheetIconButton.Left"/>
+        <Space android:layout_width="1dp" android:layout_height="1dp"/>
+        <androidx.appcompat.widget.AppCompatImageView android:id="@+id/word_caps_option_view" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/icon_word_caps" android:layout_weight="1" style="@style/Generator.SheetIconButton.Center"/>
+        <Space android:layout_width="1dp" android:layout_height="1dp"/>
+        <androidx.appcompat.widget.AppCompatImageView android:id="@+id/no_caps_option_view" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/icon_no_caps" android:layout_weight="1" style="@style/Generator.SheetIconButton.Right"/>
+        <Space android:layout_width="@dimen/_6sdp" android:layout_height="1dp"/>
+        <androidx.appcompat.widget.AppCompatImageView android:id="@+id/adjust_option_view" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/icon_adjust" android:layout_weight="1" style="@style/Generator.SheetIconButton.Left"/>
+        <Space android:layout_width="1dp" android:layout_height="1dp"/>
+        <androidx.appcompat.widget.AppCompatImageView android:id="@+id/nudge_option_view" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/icon_nudge" android:layout_weight="1" style="@style/Generator.SheetIconButton.Center"/>
+        <Space android:layout_width="1dp" android:layout_height="1dp"/>
+        <androidx.appcompat.widget.AppCompatImageView android:id="@+id/spacing_option_view" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/icon_spacing" android:layout_weight="1" style="@style/Generator.SheetIconButton.Right"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_6sdp" android:weightSum="3">
+        <TextView android:id="@+id/edit_text_option_view" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/edit_text" android:layout_weight="1" style="@style/Generator.SheetTextButton"/>
+        <View android:layout_gravity="center_vertical" android:background="#ffff" android:layout_width="1dp" android:layout_height="@dimen/_16sdp"/>
+        <TextView android:id="@+id/duplicate_option_view" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/duplicate" android:layout_weight="1" style="@style/Generator.SheetTextButton"/>
+        <View android:layout_gravity="center_vertical" android:background="#ffff" android:layout_width="1dp" android:layout_height="@dimen/_16sdp"/>
+        <TextView android:id="@+id/delete_option_view" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/delete" android:layout_weight="1" style="@style/Generator.SheetTextButton"/>
+    </LinearLayout>
+</LinearLayout>

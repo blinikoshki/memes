@@ -1,0 +1,32 @@
+package coil.memory;
+
+import coil.request.SuccessResult;
+import kotlin.Metadata;
+import kotlin.coroutines.Continuation;
+import kotlin.coroutines.jvm.internal.ContinuationImpl;
+import kotlin.coroutines.jvm.internal.DebugMetadata;
+
+@Metadata(mo26105bv = {1, 0, 3}, mo26106d1 = {"\u0000\u0016\n\u0000\n\u0002\u0010\u0000\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0010\u0002\u0010\u0000\u001a\u0004\u0018\u00010\u00012\u0006\u0010\u0002\u001a\u00020\u00032\f\u0010\u0004\u001a\b\u0012\u0004\u0012\u00020\u00060\u0005H@"}, mo26107d2 = {"success", "", "result", "Lcoil/request/SuccessResult;", "continuation", "Lkotlin/coroutines/Continuation;", ""}, mo26108k = 3, mo26109mv = {1, 4, 1})
+@DebugMetadata(mo26807c = "coil.memory.PoolableTargetDelegate", mo26808f = "TargetDelegate.kt", mo26809i = {0, 0, 1, 1, 1, 1}, mo26810l = {235, 248}, mo26811m = "success", mo26812n = {"result$iv", "eventListener$iv", "this_$iv", "bitmap$iv", "result$iv", "eventListener$iv"}, mo26813s = {"L$0", "L$1", "L$0", "L$1", "L$2", "L$3"})
+/* compiled from: TargetDelegate.kt */
+final class PoolableTargetDelegate$success$1 extends ContinuationImpl {
+    Object L$0;
+    Object L$1;
+    Object L$2;
+    Object L$3;
+    int label;
+    /* synthetic */ Object result;
+    final /* synthetic */ PoolableTargetDelegate this$0;
+
+    /* JADX INFO: super call moved to the top of the method (can break code semantics) */
+    PoolableTargetDelegate$success$1(PoolableTargetDelegate poolableTargetDelegate, Continuation continuation) {
+        super(continuation);
+        this.this$0 = poolableTargetDelegate;
+    }
+
+    public final Object invokeSuspend(Object obj) {
+        this.result = obj;
+        this.label |= Integer.MIN_VALUE;
+        return this.this$0.success((SuccessResult) null, this);
+    }
+}

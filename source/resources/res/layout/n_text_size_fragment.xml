@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/Generator.Sheet">
+    <androidx.appcompat.widget.SwitchCompat android:theme="@style/EditorSwitch" android:textSize="@dimen/_12ssp" android:textColor="?attr/colorTextPrimaryOnSurface" android:id="@+id/auto_text_size_switch" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_20sdp" android:layout_marginRight="@dimen/_20sdp" android:checked="false" android:text="Auto Size" android:layout_marginHorizontal="@dimen/_20sdp" style="@style/Generator.SheetSwitch"/>
+    <View android:background="?attr/colorOnSurface" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginBottom="@dimen/_8sdp" android:alpha="0.5"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <editor.custom.valueslider.ValueSlider android:id="@+id/text_size_slider" android:layout_width="match_parent" android:layout_height="wrap_content" app:vs_title="@string/text_size"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/app_bar_layout" android:background="@color/bg_primary" android:layout_width="match_parent" android:layout_height="wrap_content" app:elevation="0dp">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_scrollFlags="15">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <View android:layout_width="?attr/actionBarSize" android:layout_height="?attr/actionBarSize"/>
+            <ImageView android:id="@+id/header_meme_image_view" android:paddingTop="@dimen/_16sdp" android:paddingBottom="@dimen/_10sdp" android:layout_width="0dp" android:layout_height="?attr/actionBarSize" android:src="@drawable/memes_text_logo" android:layout_weight="1"/>
+            <ImageView android:id="@+id/social_notifiations_image_view" android:padding="@dimen/_13sdp" android:layout_width="?attr/actionBarSize" android:layout_height="?attr/actionBarSize" android:src="@drawable/ic_bell" app:tint="@color/white"/>
+        </LinearLayout>
+        <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" app:cardBackgroundColor="@color/black_light" app:cardCornerRadius="@dimen/_20sdp" app:cardElevation="@dimen/_2sdp" app:cardUseCompatPadding="true">
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:paddingTop="@dimen/_5sdp" android:paddingBottom="@dimen/_5sdp" android:visibility="visible" android:layout_width="match_parent" android:layout_height="@dimen/_35sdp" android:layout_margin="@dimen/_2sdp" android:weightSum="1" android:paddingStart="@dimen/_5sdp" android:paddingEnd="@dimen/_5sdp">
+                <com.google.android.material.tabs.TabLayout android:layout_gravity="center" android:id="@+id/home_tab_layout" android:layout_width="0dp" android:layout_height="@dimen/_25sdp" android:layout_weight="0.8" android:layout_marginStart="@dimen/_4sdp" app:tabBackground="@drawable/posts_tab_background" app:tabGravity="1" app:tabIndicatorHeight="0dp" app:tabMode="2" app:tabSelectedTextColor="@color/posts_tab_selected_text_color" app:tabTextAppearance="@style/PostsTabTextStyle" app:tabTextColor="@color/posts_tab_unselected_text_color" app:tabUnboundedRipple="true"/>
+                <Button android:textSize="@dimen/_12sdp" android:textColor="@color/posts_tab_unselected_text_color" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/invite_text_view" android:background="@color/transparent" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/invite" android:layout_weight="0.2" android:textAllCaps="false" android:fontFamily="@font/sf_ui_display_bold" android:layout_marginEnd="@dimen/_4sdp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</com.google.android.material.appbar.AppBarLayout>

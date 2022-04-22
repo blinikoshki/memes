@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar android:layout_gravity="center" android:id="@+id/nested_progress_bar" android:layout_width="@dimen/_32sdp" android:layout_height="@dimen/_32sdp" style="@style/ContentLayoutTheme.Progress"/>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/nested_error_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/nested_error_icon_image_view" android:visibility="gone" android:layout_width="@dimen/_40sdp" android:layout_height="@dimen/_40sdp" android:src="@drawable/ic_content_error"/>
+        <TextView android:gravity="center_horizontal" android:id="@+id/nested_error_message_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ContentLayoutTheme.Text"/>
+        <Button android:id="@+id/nested_error_resolution_button" android:layout_width="wrap_content" android:layout_height="@dimen/_32sdp" style="@style/ContentLayoutTheme.Button"/>
+    </LinearLayout>
+</merge>

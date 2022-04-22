@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="?attr/eColorSheetBg" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <editor.custom.valueslider.ValueSlider android:id="@+id/opacity_slider" android:paddingLeft="@dimen/_16sdp" android:paddingRight="@dimen/_16sdp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_16sdp" android:paddingHorizontal="@dimen/_16sdp" app:vs_title="@string/opacity"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/color_palette" android:elevation="@dimen/_2sdp" style="@style/EditorComp.ColorShadeSelectorTitle"/>
+    <editor.common.colorshadeselector.ColorShadeSelector android:id="@+id/shade_selector" android:layout_width="match_parent" android:layout_height="@dimen/_24sdp" style="@style/EditorComp.ColorShadeSelector"/>
+</LinearLayout>

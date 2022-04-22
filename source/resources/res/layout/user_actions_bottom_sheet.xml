@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/chat_shape_rounded_top" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_8sdp" android:backgroundTint="?attr/colorSurface">
+    <com.memes.chat.p036ui.custom.ChatUserAvatarView android:layout_gravity="center_horizontal" android:id="@+id/avatar_view" android:layout_width="@dimen/_64sdp" android:layout_height="@dimen/_64sdp" android:layout_marginTop="@dimen/_32sdp"/>
+    <TextView android:textSize="@dimen/_12ssp" android:textColor="?attr/colorOnSurface" android:gravity="center" android:id="@+id/avatar_label_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_8sdp" android:layout_marginBottom="@dimen/_24sdp" android:fontFamily="@font/sf_ui_display_bold"/>
+    <View android:background="?attr/colorDivider" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/view_profile_view" android:background="?attr/selectableItemBackground" android:padding="@dimen/_12sdp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="@dimen/_18sdp" android:layout_height="@dimen/_18sdp" android:src="@drawable/chat_user_profile" app:tint="?attr/colorOnSurface"/>
+        <TextView android:textSize="@dimen/_12ssp" android:textColor="?attr/colorOnSurface" android:id="@+id/view_profile_label_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/chat_view_profile" android:fontFamily="@font/sf_ui_display_medium" android:layout_marginStart="@dimen/_24sdp"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/send_message_view" android:background="?attr/selectableItemBackground" android:padding="@dimen/_12sdp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="@dimen/_18sdp" android:layout_height="@dimen/_18sdp" android:src="@drawable/chat_send_message" app:tint="?attr/colorOnSurface"/>
+        <TextView android:textSize="@dimen/_12ssp" android:textColor="?attr/colorOnSurface" android:id="@+id/send_message_label_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/chat_send_message" android:fontFamily="@font/sf_ui_display_medium" android:layout_marginStart="@dimen/_24sdp"/>
+    </LinearLayout>
+    <View android:background="?attr/colorDivider" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/mute_user_view" android:background="?attr/selectableItemBackground" android:padding="@dimen/_12sdp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="@dimen/_18sdp" android:layout_height="@dimen/_18sdp" android:src="@drawable/chat_mute_user" app:tint="?attr/colorOnSurface"/>
+        <TextView android:textSize="@dimen/_12ssp" android:textColor="?attr/colorOnSurface" android:id="@+id/mute_user_label_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/chat_mute_user" android:fontFamily="@font/sf_ui_display_medium" android:layout_marginStart="@dimen/_24sdp"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/ban_user_view" android:background="?attr/selectableItemBackground" android:padding="@dimen/_12sdp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="@dimen/_18sdp" android:layout_height="@dimen/_18sdp" android:src="@drawable/chat_ban_user" app:tint="?attr/colorHighlightDanger"/>
+        <TextView android:textSize="@dimen/_12ssp" android:textColor="?attr/colorHighlightDanger" android:id="@+id/ban_user_label_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/chat_ban_user" android:fontFamily="@font/sf_ui_display_medium" android:layout_marginStart="@dimen/_24sdp"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/report_user_view" android:background="?attr/selectableItemBackground" android:padding="@dimen/_12sdp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="@dimen/_18sdp" android:layout_height="@dimen/_18sdp" android:src="@drawable/chat_report_user" app:tint="?attr/colorHighlightDanger"/>
+        <TextView android:textSize="@dimen/_12ssp" android:textColor="?attr/colorHighlightDanger" android:id="@+id/report_user_label_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/chat_report_user" android:fontFamily="@font/sf_ui_display_medium" android:layout_marginStart="@dimen/_24sdp"/>
+    </LinearLayout>
+</LinearLayout>

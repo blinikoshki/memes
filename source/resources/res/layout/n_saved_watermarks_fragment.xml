@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Generator.Sheet">
+    <TextView android:layout_width="match_parent" android:layout_height="@dimen/generator_sheet_header_height" android:text="@string/saved" style="@style/Generator.SheetHeader.Title"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="@dimen/_140sdp">
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/watermarks_recycler_view" android:paddingLeft="@dimen/_16sdp" android:paddingRight="@dimen/_16sdp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingHorizontal="@dimen/_16sdp"/>
+        <TextView android:textSize="@dimen/_12ssp" android:textColor="?attr/colorOnSurface" android:layout_gravity="center" android:id="@+id/saved_watermarks_hint_view" android:paddingLeft="@dimen/_16sdp" android:paddingRight="@dimen/_16sdp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/n_saved_watermarks_hint" android:paddingHorizontal="@dimen/_16sdp"/>
+    </FrameLayout>
+    <editor.common.sheetfooter.CloseOnlyFooter android:id="@+id/footer" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

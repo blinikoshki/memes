@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.memes.plus.custom.UserAvatarView android:id="@+id/profile_pic_view" android:background="@color/black_see_through_strip" android:layout_width="@dimen/_28sdp" android:layout_height="@dimen/_28sdp" android:layout_margin="@dimen/_8sdp"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:textSize="@dimen/_10ssp" android:textColor="@color/dim_white" android:id="@+id/profile_username_text_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:fontFamily="@font/sf_ui_display_bold"/>
+            <TextView android:textSize="@dimen/_8ssp" android:textColor="@color/gray" android:id="@+id/profile_name_text_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:fontFamily="@font/sf_ui_display_bold"/>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/_9ssp" android:textColor="@color/dim_white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/view_profile_text_view" android:background="@drawable/state_post_tagged_users_dialog" android:paddingTop="@dimen/_4sdp" android:paddingBottom="@dimen/_4sdp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/view" android:textAllCaps="false" android:fontFamily="@font/sf_ui_display_bold" android:paddingStart="@dimen/_8sdp" android:paddingEnd="@dimen/_8sdp" android:layout_marginStart="@dimen/_8sdp" android:layout_marginEnd="@dimen/_8sdp"/>
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:background="@color/divider" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1px"/>
+</FrameLayout>

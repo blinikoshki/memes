@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="?android:attr/colorBackground" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="100">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/_36sdp">
+        <ImageView android:id="@+id/back_image_view" android:background="?attr/selectableItemBackgroundBorderless" android:padding="@dimen/_12sdp" android:layout_width="@dimen/_36sdp" android:layout_height="@dimen/_36sdp" android:src="@drawable/ic_back_no_spine" app:tint="?attr/colorTextPrimaryOnSurface"/>
+        <TextView android:textSize="@dimen/_12sdp" android:textColor="?attr/colorTextPrimaryOnSurface" android:gravity="center" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/tag_people" android:layout_weight="1"/>
+        <TextView android:textSize="@dimen/_12ssp" android:textColor="?attr/colorHighlightPrimary" android:gravity="center_vertical" android:id="@+id/done_text_view" android:background="?attr/selectableItemBackgroundBorderless" android:paddingLeft="@dimen/_12sdp" android:paddingRight="@dimen/_12sdp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/done" android:paddingHorizontal="@dimen/_12sdp"/>
+    </LinearLayout>
+    <com.memes.commons.contentlayout.ContentLayout android:id="@+id/content_layout" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="45">
+        <com.google.android.exoplayer2.p024ui.PlayerView android:id="@+id/preview_player_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <ImageView android:id="@+id/preview_image_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </com.memes.commons.contentlayout.ContentLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="55">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/tag_more_people_layout" android:background="?attr/selectableItemBackground" android:paddingLeft="@dimen/_16sdp" android:paddingRight="@dimen/_16sdp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/_36sdp" android:paddingHorizontal="@dimen/_16sdp">
+            <ImageView android:padding="@dimen/_8sdp" android:layout_width="@dimen/_36sdp" android:layout_height="match_parent" android:src="@drawable/ic_add" app:tint="?attr/colorHighlightPrimary"/>
+            <TextView android:textSize="@dimen/_12sdp" android:textColor="?attr/colorHighlightPrimary" android:gravity="center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/tag_more_people"/>
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/tagged_people_recycler_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/tag_people_layout" android:background="?attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:layout_width="@dimen/_36sdp" android:layout_height="@dimen/_36sdp" android:src="@drawable/ic_add_circular_outline" app:tint="@color/white"/>
+            <TextView android:textSize="@dimen/_12sdp" android:textStyle="bold" android:textColor="@color/light_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_8sdp" android:text="@string/tap_to_tag_people"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

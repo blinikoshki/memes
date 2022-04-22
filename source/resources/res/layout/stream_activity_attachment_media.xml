@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.getstream.sdk.chat.utils.exomedia.p012ui.widget.VideoView android:id="@+id/videoView" android:background="@color/stream_black" android:layout_width="match_parent" android:layout_height="match_parent" app:stream_useDefaultControls="true"/>
+    <ImageView android:id="@+id/iv_audio" android:background="@drawable/stream_ic_audio" android:layout_width="150dp" android:layout_height="150dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:layout_constraintVertical_bias="0.45"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

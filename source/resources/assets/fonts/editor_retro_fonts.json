@@ -1,0 +1,100 @@
+[
+  {
+    "id": "retro_font_1",
+    "type": "retro",
+    "display_name": "ActionIs",
+    "file_name": "actionis.ttf",
+    "premium": true
+  },
+  {
+    "id": "retro_font_2",
+    "type": "retro",
+    "display_name": "Feast of Flesh BB",
+    "file_name": "feast_of_flesh_bb.ttf",
+    "premium": true
+  },
+  {
+    "id": "retro_font_3",
+    "type": "retro",
+    "display_name": "Feast of Flesh BB Italic",
+    "file_name": "feast_of_flesh_bb_italic.ttf",
+    "premium": true
+  },
+  {
+    "id": "retro_font_4",
+    "type": "retro",
+    "display_name": "Gyparody Rg Regular",
+    "file_name": "gyparody_rg.ttf",
+    "premium": true
+  },
+  {
+    "id": "retro_font_5",
+    "type": "retro",
+    "display_name": "Gyparody Hv Regular",
+    "file_name": "gyparody_hv.ttf",
+    "premium": true
+  },
+  {
+    "id": "retro_font_6",
+    "type": "retro",
+    "display_name": "Lakmus Fenotype",
+    "file_name": "lakmus.ttf",
+    "premium": true
+  },
+  {
+    "id": "retro_font_7",
+    "type": "retro",
+    "display_name": "Mexcellent Regular",
+    "file_name": "mexcellent_rg.ttf",
+    "premium": true
+  },
+  {
+    "id": "retro_font_8",
+    "type": "retro",
+    "display_name": "Mexcellent 3D Regular",
+    "file_name": "mexcellent_3d.ttf",
+    "premium": true
+  },
+  {
+    "id": "retro_font_9",
+    "type": "retro",
+    "display_name": "Musicals",
+    "file_name": "musicals.ttf",
+    "premium": true
+  },
+  {
+    "id": "retro_font_10",
+    "type": "retro",
+    "display_name": "Nasalization Rg Regular",
+    "file_name": "nasalization_rg.ttf",
+    "premium": true
+  },
+  {
+    "id": "retro_font_11",
+    "type": "retro",
+    "display_name": "Norton",
+    "file_name": "norton.ttf",
+    "premium": true
+  },
+  {
+    "id": "retro_font_12",
+    "type": "retro",
+    "display_name": "PenguinAttack",
+    "file_name": "penguin_attack.ttf",
+    "premium": true
+  },
+  {
+    "id": "retro_font_13",
+    "type": "retro",
+    "display_name": "Pricedown Bl Regular",
+    "file_name": "pricedown_bl.ttf",
+    "premium": true
+  },
+  {
+    "id": "retro_font_14",
+    "type": "retro",
+    "display_name": "RM Serifancy",
+    "file_name": "rm_serifancy.ttf",
+    "premium": true
+  }
+]

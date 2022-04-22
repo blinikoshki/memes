@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="?attr/colorSurface" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" android:elevation="@dimen/_4sdp">
+        <ImageView android:id="@+id/back_view" android:background="?attr/selectableItemBackgroundBorderless" android:padding="@dimen/_8sdp" android:layout_width="@dimen/_36sdp" android:layout_height="@dimen/_36sdp" android:src="@drawable/icon_arrow_back"/>
+    </LinearLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <editor.gpu.gpuimage.GPUImageView android:layout_gravity="center" android:id="@+id/photo_view" android:layout_width="match_parent" android:layout_height="match_parent" app:gpuimage_surface_type="1"/>
+        <com.google.android.exoplayer2.p024ui.PlayerView android:layout_gravity="center" android:id="@+id/video_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:surface_type="2"/>
+    </FrameLayout>
+    <View android:background="@color/colorFilterOptionDivider" android:layout_width="match_parent" android:layout_height="1px"/>
+    <androidx.fragment.app.FragmentContainerView android:layout_gravity="bottom" android:id="@+id/filters_fragment_container" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

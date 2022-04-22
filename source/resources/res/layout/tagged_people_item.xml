@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:background="@color/MemeBackgroundcolor" android:layout_width="match_parent" android:layout_height="@dimen/_40sdp">
+    <com.memes.plus.custom.UserAvatarView android:id="@+id/profile_pic_image_view" android:layout_width="@dimen/_28sdp" android:layout_height="@dimen/_28sdp" android:layout_margin="@dimen/_6sdp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/username_linear_layout" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="@dimen/_8sdp" android:layout_marginRight="@dimen/_8sdp" android:layout_marginHorizontal="@dimen/_8sdp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toStartOf="@+id/delete_item_view" app:layout_constraintStart_toEndOf="@+id/profile_pic_image_view" app:layout_constraintTop_toTopOf="0">
+        <TextView android:textSize="@dimen/_10ssp" android:textColor="@color/gray" android:id="@+id/username_text_view" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <TextView android:textSize="@dimen/_10ssp" android:textColor="@color/gray" android:id="@+id/name_text_view" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/delete_item_view" android:background="?attr/selectableItemBackgroundBorderless" android:layout_width="@dimen/_40sdp" android:layout_height="@dimen/_40sdp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0">
+        <ImageView android:layout_gravity="center" android:background="@drawable/circular_drawable_with_purple_stroke" android:padding="@dimen/_5sdp" android:layout_width="@dimen/_20sdp" android:layout_height="@dimen/_20sdp" android:src="@drawable/ic_close" app:tint="@color/colorRealAccent"/>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

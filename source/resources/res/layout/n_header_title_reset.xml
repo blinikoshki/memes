@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="@dimen/generator_sheet_header_height">
+    <TextView android:id="@+id/title_view" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/sample" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" style="@style/Generator.SheetHeader.Title"/>
+    <View android:layout_width="@dimen/_1sdp" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="@+id/title_view" app:layout_constraintEnd_toStartOf="@+id/reset_view" app:layout_constraintTop_toTopOf="@+id/title_view" style="@style/Generator.SheetHeader.ResetDivider"/>
+    <TextView android:id="@+id/reset_view" android:layout_width="@dimen/eSheetBackButtonWidth" android:layout_height="0dp" android:text="@string/reset" app:layout_constraintBottom_toBottomOf="@+id/title_view" app:layout_constraintEnd_toEndOf="@+id/title_view" app:layout_constraintTop_toTopOf="@+id/title_view" style="@style/Generator.SheetHeader.Reset"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

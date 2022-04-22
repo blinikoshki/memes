@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <editor.common.sheetfooter.CancelDoneFooter android:id="@+id/footer" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <FrameLayout android:background="#aa000000" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <EditText android:textSize="@dimen/_24ssp" android:textColor="#fbfbfb" android:textColorHint="#b0b0b0" android:gravity="center" android:id="@+id/edit_text" android:background="@null" android:paddingBottom="@dimen/_16sdp" android:layout_width="match_parent" android:layout_height="match_parent" android:hint="@string/type_text" android:maxLength="192" android:inputType="textMultiLine" android:paddingStart="@dimen/_16sdp" android:paddingEnd="@dimen/_16sdp"/>
+    </FrameLayout>
+</LinearLayout>

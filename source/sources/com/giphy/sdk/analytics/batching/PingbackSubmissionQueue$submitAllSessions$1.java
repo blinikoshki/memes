@@ -1,0 +1,37 @@
+package com.giphy.sdk.analytics.batching;
+
+import android.util.Log;
+import com.giphy.sdk.analytics.models.Session;
+import com.giphy.sdk.analytics.network.api.CompletionHandler;
+import com.giphy.sdk.analytics.network.response.PingbackResponse;
+import java.util.Arrays;
+import kotlin.Metadata;
+import kotlin.jvm.internal.Intrinsics;
+import kotlin.jvm.internal.StringCompanionObject;
+
+@Metadata(mo26105bv = {1, 0, 3}, mo26106d1 = {"\u0000\u001d\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0002\n\u0002\b\u0002\n\u0002\u0010\u0003\n\u0000*\u0001\u0000\b\n\u0018\u00002\b\u0012\u0004\u0012\u00020\u00020\u0001J\u001c\u0010\u0003\u001a\u00020\u00042\b\u0010\u0005\u001a\u0004\u0018\u00010\u00022\b\u0010\u0006\u001a\u0004\u0018\u00010\u0007H\u0016¨\u0006\b"}, mo26107d2 = {"com/giphy/sdk/analytics/batching/PingbackSubmissionQueue$submitAllSessions$1", "Lcom/giphy/sdk/analytics/network/api/CompletionHandler;", "Lcom/giphy/sdk/analytics/network/response/PingbackResponse;", "onComplete", "", "result", "e", "", "giphy-android-sdk-analytics_release"}, mo26108k = 1, mo26109mv = {1, 1, 13})
+/* compiled from: PingbackSubmissionQueue.kt */
+public final class PingbackSubmissionQueue$submitAllSessions$1 implements CompletionHandler<PingbackResponse> {
+    final /* synthetic */ Session $session;
+    final /* synthetic */ PingbackSubmissionQueue this$0;
+
+    PingbackSubmissionQueue$submitAllSessions$1(PingbackSubmissionQueue pingbackSubmissionQueue, Session session) {
+        this.this$0 = pingbackSubmissionQueue;
+        this.$session = session;
+    }
+
+    public void onComplete(PingbackResponse pingbackResponse, Throwable th) {
+        if (th != null) {
+            Log.d("PINGBACK", "Error submitting session. " + th.getLocalizedMessage());
+            this.this$0.getSessions().addLast(this.$session);
+            this.this$0.trimQueueIfNecessary();
+            this.this$0.scheduleReattempt();
+            return;
+        }
+        this.this$0.retriesCount = 0;
+        StringCompanionObject stringCompanionObject = StringCompanionObject.INSTANCE;
+        String format = String.format("Successfully submitted session %s %s", Arrays.copyOf(new Object[]{this.$session.getSessionId(), Integer.valueOf(this.$session.getActionCount())}, 2));
+        Intrinsics.checkExpressionValueIsNotNull(format, "java.lang.String.format(format, *args)");
+        Log.d("PINGBACK", format);
+    }
+}

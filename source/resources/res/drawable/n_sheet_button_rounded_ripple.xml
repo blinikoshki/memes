@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:color="@color/colorSheetIconButtonRipple">
+    <item android:state_enabled="true" android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/_4sdp"/>
+        </shape>
+    </item>
+    <item android:state_focused="true" android:state_enabled="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/_4sdp"/>
+        </shape>
+    </item>
+    <item android:state_enabled="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/_4sdp"/>
+            <solid android:color="#000"/>
+        </shape>
+    </item>
+</ripple>

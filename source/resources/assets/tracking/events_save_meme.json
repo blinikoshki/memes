@@ -1,0 +1,30 @@
+[
+    {
+        "id": "new_meme_post",
+        "af": "postisuploaded"
+    },
+    {
+        "id": "exit_create_post_page",
+        "fb": "Back Save_Share"
+    },
+    {
+        "id": "tap_upload_post_button",
+        "fb": "Post Save_Share"
+    },
+    {
+        "id": "tap_save_on_create_post",
+        "fb": "Save Camera Roll Save_Share"
+    },
+    {
+        "id": "tap_facebook_on_create_post",
+        "fb": "Facebook Save_Share"
+    },
+    {
+        "id": "tap_instagram_on_create_post",
+        "fb": "Instagram Save_Share"
+    },
+    {
+        "id": "tap_share_on_create_post",
+        "fb": "More Save_Share"
+    }
+]

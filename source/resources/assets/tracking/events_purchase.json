@@ -1,0 +1,42 @@
+[
+    {
+        "id": "onetime_purchase",
+        "fb": "Type OneTime Purchase"
+    },
+    {
+        "id": "yearly_purchase_on_trial",
+        "fb": "Yearly Purchase On Trial, Type Yearly Purchase On Trial"
+    },
+    {
+        "id": "yearly_purchase_without_trial",
+        "fb": "Yearly Purchase Without Trial Period"
+    },
+    {
+        "id": "yearly_purchase_after_trial",
+        "fb": "Type Yearly Purchase Proceed After Trial, Type Yearly Purchase Proceed After Trial New Check"
+    },
+    {
+        "id": "weekly_purchase_on_trial",
+        "fb": "Weekly Purchase On Trial"
+    },
+    {
+        "id": "weekly_purchase_without_trial",
+        "fb": "Weekly Purchase Without Trial Period, Type Weekly Purchase Without Trial"
+    },
+    {
+        "id": "monthly_purchase_on_trial",
+        "fb": "Monthly Purchase On Trial"
+    },
+    {
+        "id": "monthly_purchase_without_trial",
+        "fb": "Monthly Purchase Without Trial Period"
+    },
+    {
+        "id": "one_time_purchase_on_trial",
+        "fb": "One Time Purchase On Trial"
+    },
+    {
+        "id": "one_time_purchase_without_trial",
+        "fb": "One Time Purchase Without Trial Period"
+    }
+]

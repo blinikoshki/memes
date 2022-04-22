@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/MemeBackgroundcolor" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="1">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:padding="@dimen/_10sdp" android:layout_width="match_parent" android:layout_height="@dimen/_40sdp">
+        <ImageView android:id="@+id/back_navigation_imageview" android:padding="@dimen/_4sdp" android:layout_width="@dimen/_25sdp" android:layout_height="@dimen/_25sdp" android:src="@drawable/back"/>
+        <TextView android:textSize="@dimen/_14sdp" android:textColor="@color/white" android:gravity="center" android:id="@+id/header_text_view" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="Likes" android:layout_weight="1" android:layout_marginEnd="@dimen/_35sdp"/>
+    </LinearLayout>
+    <include android:id="@+id/search_box_layout" layout="@layout/snippet_search_box_layout"/>
+    <com.memes.commons.contentlayout.ContentLayout android:id="@+id/content_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/users_list_recyclerview" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/_5sdp"/>
+    </com.memes.commons.contentlayout.ContentLayout>
+</LinearLayout>

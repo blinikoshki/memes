@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.memes.commons.aspectratio.AspectRatioFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/aspect_ratio_frame_layout" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/_4sdp" android:layout_marginRight="@dimen/_4sdp" android:animateLayoutChanges="true" android:layout_marginHorizontal="@dimen/_4sdp" app:resize_mode="2">
+    <ImageView android:id="@+id/image_view" android:background="?attr/colorSurface" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY"/>
+    <View android:id="@+id/selection_indicator" android:background="@drawable/n_shape_media_selection_item_indicator" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</com.memes.commons.aspectratio.AspectRatioFrameLayout>

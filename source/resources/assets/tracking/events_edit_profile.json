@@ -1,0 +1,67 @@
+[
+    {
+        "id": "tap_edit_profile",
+        "fb": "Edit Profile"
+    },
+    {
+        "id": "exit_edit_profile",
+        "fb": "Back Profile edit"
+    },
+    {
+        "id": "tap_change_profile_pic",
+        "fb": "UserImage Profile edit"
+    },
+    {
+        "id": "changed_profile_pic",
+        "af": "profilepicisuploaded"
+    },
+    {
+        "id": "tap_change_cover_pic",
+        "fb": "Poster Profile Edit"
+    },
+    {
+        "id": "save_edited_profile",
+        "fb": "Save Profile Edit"
+    },
+    {
+        "id": "tap_change_name",
+        "fb": "Name Profile Edit"
+    },
+    {
+        "id": "tap_change_bio",
+        "fb": "Bio Profile Edit"
+    },
+    {
+        "id": "tap_change_username",
+        "fb": "Username Profile Edit"
+    },
+    {
+        "id": "tap_change_location",
+        "fb": "Location Profile Edit"
+    },
+    {
+        "id": "tap_change_age",
+        "fb": "age Profile Edit"
+    },
+    {
+        "id": "restore_purchases",
+        "fb": "Restore purchase Profile Edit"
+    },
+    {
+        "id": "support",
+        "fb": "Support Profile Edit"
+    },
+    {
+        "id": "rate",
+        "fb": "Rate Profile Edit"
+    },
+    {
+        "id": "store_page",
+        "fb": "User on store"
+    },
+    {
+        "id": "logout",
+        "fb": "Logout Profile Edit",
+		"fi": "logout"
+    }
+]

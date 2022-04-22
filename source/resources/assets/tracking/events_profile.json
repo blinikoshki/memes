@@ -1,0 +1,20 @@
+[
+    {
+        "id": "tap_profile_nav",
+        "fb": "Profile Button"
+    },
+
+    
+    {
+        "id": "tap_profile_posts",
+        "fb": "Posts Profile"
+    },
+    {
+        "id": "tap_profile_saved_posts",
+        "fb": "Saved Profile"
+    },
+    {
+        "id": "tap_profile_tagged_posts",
+        "fb": "Tags Profile"
+    }
+]

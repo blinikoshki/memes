@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="?android:attr/colorBackground" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar" android:background="?attr/colorPrimary" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <EditText android:textSize="14sp" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/user_id_edit_text" android:padding="4dp" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" android:layout_margin="8dp" android:hint="@string/chat_user_id_hint" android:maxLines="1" android:lines="1" android:maxLength="64" android:inputType="text" android:imeOptions="actionDone"/>
+    <Button android:textColor="?attr/colorOnPrimary" android:layout_gravity="end" android:id="@+id/create_channel_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:text="@string/chat_create" android:backgroundTint="?attr/colorPrimary" android:layout_marginHorizontal="8dp" style="@style/Widget.AppCompat.Button"/>
+</LinearLayout>

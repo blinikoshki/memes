@@ -1,0 +1,345 @@
+[
+  {
+    "id": "special_font_2",
+    "type": "special",
+    "display_name": "Alex Brush",
+    "file_name": "alex_brush_regular.ttf",
+    "premium": true
+  },
+  {
+    "id": "special_font_3",
+    "type": "special",
+    "display_name": "Permanent Marker",
+    "file_name": "permanent_marker.ttf",
+    "premium": true
+  },
+  {
+    "id": "special_font_4",
+    "type": "special",
+    "display_name": "Daniel",
+    "file_name": "daniel.ttf",
+    "premium": true
+  },
+  {
+    "id": "special_font_5",
+    "type": "special",
+    "display_name": "Pusab",
+    "file_name": "pusab.ttf",
+    "premium": true
+  },
+  {
+    "id": "special_font_6",
+    "type": "special",
+    "display_name": "Blackout 2 AM",
+    "file_name": "blackout_2am.ttf",
+    "premium": true
+  },
+  {
+    "id": "special_font_7",
+    "type": "special",
+    "display_name": "Blackout Midnight",
+    "file_name": "blackout_midnight.ttf",
+    "premium": true
+  },
+  {
+    "id": "special_font_8",
+    "type": "special",
+    "display_name": "Ant Killer",
+    "file_name": "ant_killer.ttf",
+    "premium": true
+  },
+  {
+    "id": "special_font_9",
+    "type": "special",
+    "display_name": "Beautiful World NBP",
+    "file_name": "beautiful_world_nbp.ttf",
+    "premium": true
+  },
+  {
+    "id": "special_font_10",
+    "type": "special",
+    "display_name": "Broken Detroit",
+    "file_name": "broken_detroit.ttf",
+    "premium": true
+  },
+  {
+    "id": "special_font_11",
+    "type": "special",
+    "display_name": "Bronx Bystreets",
+    "file_name": "bronx_bystreets_personal.ttf",
+    "premium": true
+  },
+  {
+    "id": "special_font_12",
+    "type": "special",
+    "display_name": "Brooke Shappell Dots",
+    "file_name": "brooke_shappell_dots.ttf",
+    "premium": true
+  },
+  {
+    "id": "special_font_13",
+    "type": "special",
+    "display_name": "By The Throat",
+    "file_name": "by_the_throat_demo.ttf",
+    "premium": true
+  },
+  {
+    "id": "special_font_14",
+    "type": "special",
+    "display_name": "Crazy Messy Life",
+    "file_name": "crazy_messy_life.ttf",
+    "premium": true
+  },
+  {
+    "id": "special_font_15",
+    "type": "special",
+    "display_name": "Crazy Silly Jumping Serif",
+    "file_name": "crazy_silly_jumping_serif.ttf",
+    "premium": true
+  },
+  {
+    "id": "special_font_16",
+    "type": "special",
+    "display_name": "Deadmobil",
+    "file_name": "dead_mobil.ttf",
+    "premium": true
+  },
+  {
+    "id": "special_font_17",
+    "type": "special",
+    "display_name": "Demon Sker",
+    "file_name": "demon_sker.ttf",
+	"premium": true
+  },
+  {
+    "id": "special_font_18",
+    "type": "special",
+    "display_name": "Diskopia 2.0",
+    "file_name": "diskopia_2.0.ttf",
+    "premium": true
+  },
+  {
+    "id": "special_font_19",
+    "type": "special",
+    "display_name": "Doodle",
+    "file_name": "doodle.ttf",
+    "premium": true
+  },
+  {
+    "id": "special_font_20",
+    "type": "special",
+    "display_name": "Dust Overhaul",
+    "file_name": "dust_overhaul_personal.ttf",
+    "premium": true
+  },
+  {
+    "id": "special_font_21",
+    "type": "special",
+    "display_name": "Elf Crazy and Sunny Lemon Life",
+    "file_name": "elf_crazy_and_sunny_lemon_life.ttf",
+    "premium": true
+  },
+  {
+    "id": "special_font_22",
+    "type": "special",
+    "display_name": "Font Insane",
+    "file_name": "font_insane.ttf",
+    "premium": true
+  },
+  {
+    "id": "special_font_23",
+    "type": "special",
+    "display_name": "I Have Gone Crazy",
+    "file_name": "i_have_gone_crazy.ttf",
+    "premium": true
+  },
+  {
+    "id": "special_font_24",
+    "type": "special",
+    "display_name": "JD Lucrezia",
+    "file_name": "jd_lucrezia.ttf",
+    "premium": true
+  },
+  {
+    "id": "special_font_25",
+    "type": "special",
+    "display_name": "JI Belfry",
+    "file_name": "ji_belfry.ttf",
+    "premium": true
+  },
+  {
+    "id": "special_font_26",
+    "type": "special",
+    "display_name": "KB An Avoxlost",
+    "file_name": "kb_an_avoxlost.ttf",
+    "premium": true
+  },
+  {
+    "id": "special_font_27",
+    "type": "special",
+    "display_name": "KB Dunk Tank",
+    "file_name": "kb_dunk_tank.ttf",
+    "premium": true
+  },
+  {
+    "id": "special_font_28",
+    "type": "special",
+    "display_name": "KB Fun House",
+    "file_name": "kb_fun_house.ttf",
+    "premium": true
+  },
+  {
+    "id": "special_font_29",
+    "type": "special",
+    "display_name": "KB Googley Eyes",
+    "file_name": "kb_googley_eyes.ttf",
+    "premium": true
+  },
+  {
+    "id": "special_font_30",
+    "type": "special",
+    "display_name": "KB Jellybean",
+    "file_name": "kb_jellybean.ttf",
+    "premium": true
+  },
+  {
+    "id": "special_font_31",
+    "type": "special",
+    "display_name": "KB Jumping Jellybeans",
+    "file_name": "kb_jumping_jellybeans.ttf",
+    "premium": true
+  },
+  {
+    "id": "special_font_32",
+    "type": "special",
+    "display_name": "KB Lucky Clover",
+    "file_name": "kb_lucky_clover.ttf",
+    "premium": true
+  },
+  {
+    "id": "special_font_33",
+    "type": "special",
+    "display_name": "KB Radio Wizard",
+    "file_name": "kb_radio_wizard.ttf",
+    "premium": true
+  },
+  {
+    "id": "special_font_34",
+    "type": "special",
+    "display_name": "KB Reindeer Games",
+    "file_name": "kb_reindeer_games.ttf",
+    "premium": true
+  },
+  {
+    "id": "special_font_35",
+    "type": "special",
+    "display_name": "KB Stick To It",
+    "file_name": "kb_stick_to_it.ttf",
+    "premium": true
+  },
+  {
+    "id": "special_font_36",
+    "type": "special",
+    "display_name": "KG I Like To Move It",
+    "file_name": "kg_i_like_to_move_it.ttf",
+    "premium": true
+  },
+  {
+    "id": "special_font_37",
+    "type": "special",
+    "display_name": "Loco",
+    "file_name": "loco.ttf",
+    "premium": true
+  },
+  {
+    "id": "special_font_38",
+    "type": "special",
+    "display_name": "Mf Still Kinda Ridiculous 2",
+    "file_name": "mf_still_kinda_ridiculous_2.ttf",
+    "premium": true
+  },
+  {
+    "id": "special_font_39",
+    "type": "special",
+    "display_name": "My Imaginary Friend",
+    "file_name": "my_imaginary_friend.ttf",
+    "premium": true
+  },
+  {
+    "id": "special_font_40",
+    "type": "special",
+    "display_name": "Paranoia",
+    "file_name": "paranoia.otf",
+    "premium": true
+  },
+  {
+    "id": "special_font_41",
+    "type": "special",
+    "display_name": "Points Of Opinion",
+    "file_name": "points_of_opinion.ttf",
+    "premium": true
+  },
+  {
+    "id": "special_font_42",
+    "type": "special",
+    "display_name": "Polar Vortex",
+    "file_name": "polar_vortex_c_personal.ttf",
+    "premium": true
+  },
+  {
+    "id": "special_font_43",
+    "type": "special",
+    "display_name": "Promoleus",
+    "file_name": "promoleus.otf",
+    "premium": true
+  },
+  {
+    "id": "special_font_43_1",
+    "type": "special",
+    "display_name": "Silly People",
+    "file_name": "silly_people.ttf",
+    "premium": true
+  },
+  {
+    "id": "special_font_44",
+    "type": "special",
+    "display_name": "Straight Jacket BB",
+    "file_name": "straight_jacket_bb.otf",
+    "premium": true
+  },
+  {
+    "id": "special_font_45",
+    "type": "special",
+    "display_name": "Straight Jacket BB (Bold)",
+    "file_name": "straight_jacket_bb_bold.otf",
+    "premium": true
+  },
+  {
+    "id": "special_font_46",
+    "type": "special",
+    "display_name": "Thick Thin",
+    "file_name": "thick_thin.ttf",
+    "premium": true
+  },
+  {
+    "id": "special_font_47",
+    "type": "special",
+    "display_name": "Toxia",
+    "file_name": "toxia.ttf",
+    "premium": true
+  },
+  {
+    "id": "special_font_48",
+    "type": "special",
+    "display_name": "Twisted Stallions",
+    "file_name": "twisted_stallions_personal.ttf",
+    "premium": true
+  },
+  {
+    "id": "special_font_49",
+    "type": "special",
+    "display_name": "WILD 2 Ghixmnc",
+    "file_name": "wild_2_ghixmnc.otf",
+    "premium": true
+  }
+]

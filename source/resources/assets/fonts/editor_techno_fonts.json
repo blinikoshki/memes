@@ -1,0 +1,170 @@
+[
+  {
+    "id": "techno_font_1",
+    "type": "techno",
+    "display_name": "A Space heavy",
+    "file_name": "a_space_heavy_demo.otf",
+    "premium": true
+  },
+  {
+    "id": "techno_font_2",
+    "type": "techno",
+    "display_name": "Android Insomnia",
+    "file_name": "android_insomnia.ttf",
+    "premium": true
+  },
+  {
+    "id": "techno_font_3",
+    "type": "techno",
+    "display_name": "Armata Regular",
+    "file_name": "armata_regular.ttf",
+    "premium": true
+  },
+  {
+    "id": "techno_font_4",
+    "type": "techno",
+    "display_name": "Baumans Regular",
+    "file_name": "baumans_regular.ttf",
+    "premium": true
+  },
+  {
+    "id": "techno_font_5",
+    "type": "techno",
+    "display_name": "Conthrax Sb Regular",
+    "file_name": "conthrax_sb.ttf",
+    "premium": true
+  },
+  {
+    "id": "techno_font_6",
+    "type": "techno",
+    "display_name": "Cuppa Joe",
+    "file_name": "cuppa_joe.ttf",
+    "premium": true
+  },
+  {
+    "id": "techno_font_7",
+    "type": "techno",
+    "display_name": "Cuyabra Regular",
+    "file_name": "cuyabra.otf",
+    "premium": true
+  },
+  {
+    "id": "techno_font_8",
+    "type": "techno",
+    "display_name": "Cuyabra Oblique",
+    "file_name": "cuyabra_oblique.otf",
+    "premium": true
+  },
+  {
+    "id": "techno_font_9",
+    "type": "techno",
+    "display_name": "Cuyabra Bold",
+    "file_name": "cuyabra_bold.otf",
+    "premium": true
+  },
+  {
+    "id": "techno_font_10",
+    "type": "techno",
+    "display_name": "Cuyabra Bold Oblique",
+    "file_name": "cuyabra_bold_oblique.otf",
+    "premium": true
+  },
+  {
+    "id": "techno_font_11",
+    "type": "techno",
+    "display_name": "Super G Type 2",
+    "file_name": "space_g_super_2.ttf",
+    "premium": true
+  },
+  {
+    "id": "techno_font_12",
+    "type": "techno",
+    "display_name": "Iceland Regular",
+    "file_name": "iceland_regular.ttf",
+    "premium": true
+  },
+  {
+    "id": "techno_font_13",
+    "type": "techno",
+    "display_name": "Kenney Future Narrow",
+    "file_name": "kenney_future_narrow.ttf",
+    "premium": true
+  },
+  {
+    "id": "techno_font_14",
+    "type": "techno",
+    "display_name": "Kenney Future Square",
+    "file_name": "kenney_future_square.ttf",
+    "premium": true
+  },
+  {
+    "id": "techno_font_15",
+    "type": "techno",
+    "display_name": "Kenney Space",
+    "file_name": "kenney_space.ttf",
+    "premium": true
+  },
+  {
+    "id": "techno_font_16",
+    "type": "techno",
+    "display_name": "Michroma",
+    "file_name": "michroma.ttf",
+    "premium": true
+  },
+  {
+    "id": "techno_font_17",
+    "type": "techno",
+    "display_name": "Monofett",
+    "file_name": "monofett.ttf",
+    "premium": true
+  },
+  {
+    "id": "techno_font_18",
+    "type": "techno",
+    "display_name": "Neuropol Regular",
+    "file_name": "neuropol_regular.ttf",
+    "premium": true
+  },
+  {
+    "id": "techno_font_19",
+    "type": "techno",
+    "display_name": "Plastic Pill",
+    "file_name": "plastic_pill.ttf",
+    "premium": true
+  },
+  {
+    "id": "techno_font_20",
+    "type": "techno",
+    "display_name": "Quango",
+    "file_name": "quango.otf",
+    "premium": true
+  },
+  {
+    "id": "techno_font_21",
+    "type": "techno",
+    "display_name": "Red Seven",
+    "file_name": "red_seven.otf",
+    "premium": true
+  },
+  {
+    "id": "techno_font_22",
+    "type": "techno",
+    "display_name": "Simpleness",
+    "file_name": "simpleness.otf",
+    "premium": true
+  },
+  {
+    "id": "techno_font_23",
+    "type": "techno",
+    "display_name": "Suissnord",
+    "file_name": "suissnord.otf",
+    "premium": true
+  },
+  {
+    "id": "techno_font_24",
+    "type": "techno",
+    "display_name": "Viga Regular",
+    "file_name": "viga_regular.ttf",
+    "premium": true
+  }
+]

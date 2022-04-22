@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="bottom" android:orientation="vertical" android:paddingBottom="@dimen/_8sdp" android:layout_width="@dimen/_80sdp" android:layout_height="match_parent" android:layout_marginLeft="@dimen/_4sdp" android:layout_marginRight="@dimen/_4sdp" android:animateLayoutChanges="true" android:stateListAnimator="@animator/scale_touch_effect" android:layout_marginHorizontal="@dimen/_4sdp">
+    <com.memes.commons.aspectratio.AspectRatioFrameLayout android:id="@+id/aspect_ratio_layout" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" app:resize_mode="1">
+        <ImageView android:id="@+id/image_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </com.memes.commons.aspectratio.AspectRatioFrameLayout>
+    <TextView android:textSize="@dimen/_10ssp" android:textColor="?attr/colorTextPrimaryOnSurface" android:layout_gravity="center_horizontal" android:id="@+id/title_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_4sdp"/>
+    <TextView android:textSize="@dimen/_7ssp" android:textColor="?attr/colorTextInactiveOnSurface" android:layout_gravity="center_horizontal" android:id="@+id/subtitle_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_4sdp"/>
+</LinearLayout>

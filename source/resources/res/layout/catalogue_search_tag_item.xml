@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:background="?attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:background="@drawable/shape_circular_edges" android:layout_width="@dimen/_32sdp" android:layout_height="@dimen/_32sdp" android:layout_margin="@dimen/_8sdp" android:backgroundTint="@color/white">
+        <ImageView android:id="@+id/search_result_tag_image_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <TextView android:textSize="@dimen/_16sdp" android:textColor="@color/light_gray" android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" android:text="#"/>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/_12ssp" android:textColor="@color/primary_text" android:id="@+id/search_result_tag_name_text_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Andres Hannison" android:maxLines="1"/>
+        <TextView android:textSize="@dimen/_10ssp" android:textColor="@color/primary_text" android:id="@+id/search_result_tag_posts_text_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="18 Followers" android:maxLines="1"/>
+    </LinearLayout>
+</LinearLayout>

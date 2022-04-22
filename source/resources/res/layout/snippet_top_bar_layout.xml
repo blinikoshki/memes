@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/top_bar_layout" android:layout_width="match_parent" android:layout_height="@dimen/_36sdp">
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/top_bar_back_image_view" android:background="?attr/selectableItemBackgroundBorderless" android:padding="@dimen/_12sdp" android:layout_width="@dimen/_36sdp" android:layout_height="match_parent" android:src="@drawable/ic_back_no_spine" app:tint="@color/white"/>
+    <TextView android:textSize="@dimen/_14ssp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/top_bar_title_text_view" android:layout_width="0dp" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:layout_weight="1" android:paddingStart="@dimen/_8sdp" android:paddingEnd="@dimen/_8sdp"/>
+    <View android:layout_gravity="center_vertical" android:id="@+id/top_bar_back_dummy_view" android:layout_width="@dimen/_36sdp" android:layout_height="match_parent"/>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="format_selected_items_count">
+        <item quantity="zero">No Items Selected</item>
+        <item quantity="one">%d Item Selected</item>
+        <item quantity="other">%d Items Selected</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d new notification</item>
+        <item quantity="other">%d new notifications</item>
+    </plurals>
+    <plurals name="n_editor_hidden_entities_warning">
+        <item quantity="one">Warning: %d layer is hidden!</item>
+        <item quantity="other">Warning: %d layers are hidden!</item>
+    </plurals>
+    <plurals name="stream_reply_count">
+        <item quantity="one">%d reply</item>
+        <item quantity="other">%d replies</item>
+    </plurals>
+</resources>

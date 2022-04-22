@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/wireframes_recycler_view" android:paddingLeft="@dimen/_4sdp" android:paddingTop="@dimen/_8sdp" android:paddingRight="@dimen/_4sdp" android:paddingBottom="@dimen/_8sdp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/_4sdp" android:paddingVertical="@dimen/_8sdp"/>
+</LinearLayout>

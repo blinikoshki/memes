@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Generator.Sheet">
+    <TextView android:layout_width="match_parent" android:layout_height="@dimen/generator_sheet_header_height" android:text="@string/watermark" style="@style/Generator.SheetHeader.Title"/>
+    <androidx.appcompat.widget.SwitchCompat android:theme="@style/EditorSwitch" android:id="@+id/watermark_switch" android:paddingLeft="@dimen/_16sdp" android:paddingRight="@dimen/_16sdp" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="true" android:text="@string/n_show_official_watermark" android:paddingHorizontal="@dimen/_16sdp" style="@style/Generator.SheetSwitch"/>
+    <View android:layout_width="match_parent" android:layout_height="1px" style="@style/Generator.SheetDivder"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_8sdp" android:text="@string/watermark_headline" style="@style/Generator.SheetText"/>
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/_24sdp" android:paddingTop="@dimen/_8sdp" android:paddingRight="@dimen/_24sdp" android:paddingBottom="@dimen/_8sdp" android:layout_width="match_parent" android:layout_height="@dimen/_90sdp" android:weightSum="4" android:paddingHorizontal="@dimen/_24sdp" android:paddingVertical="@dimen/_8sdp">
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="@dimen/_4sdp" android:layout_marginRight="@dimen/_4sdp" android:layout_weight="1" android:layout_marginHorizontal="@dimen/_4sdp">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/watermark_text_option_view" android:padding="@dimen/_16sdp" android:layout_width="match_parent" android:layout_height="0dp" android:src="@drawable/icon_watermark_text" android:layout_weight="1" style="@style/Generator.SheetIconButton.Rounded"/>
+            <TextView android:textSize="@dimen/_9ssp" android:padding="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_1sdp" android:text="@string/text" style="@style/Generator.SheetText"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="@dimen/_4sdp" android:layout_marginRight="@dimen/_4sdp" android:layout_weight="1" android:layout_marginHorizontal="@dimen/_4sdp">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/watermark_signature_option_view" android:padding="@dimen/_16sdp" android:layout_width="match_parent" android:layout_height="0dp" android:src="@drawable/icon_watermark_signature" android:layout_weight="1" style="@style/Generator.SheetIconButton.Rounded"/>
+            <TextView android:textSize="@dimen/_9ssp" android:padding="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_1sdp" android:text="@string/signature" style="@style/Generator.SheetText"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="@dimen/_4sdp" android:layout_marginRight="@dimen/_4sdp" android:layout_weight="1" android:layout_marginHorizontal="@dimen/_4sdp">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/watermark_logo_option_view" android:padding="@dimen/_16sdp" android:layout_width="match_parent" android:layout_height="0dp" android:src="@drawable/icon_watermark_logo" android:layout_weight="1" style="@style/Generator.SheetIconButton.Rounded"/>
+            <TextView android:textSize="@dimen/_9ssp" android:padding="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_1sdp" android:text="@string/logo" style="@style/Generator.SheetText"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="@dimen/_4sdp" android:layout_marginRight="@dimen/_4sdp" android:layout_weight="1" android:layout_marginHorizontal="@dimen/_4sdp">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/watermark_saved_option_view" android:padding="@dimen/_16sdp" android:layout_width="match_parent" android:layout_height="0dp" android:src="@drawable/icon_watermark_saved" android:layout_weight="1" style="@style/Generator.SheetIconButton.Rounded"/>
+            <TextView android:textSize="@dimen/_9ssp" android:padding="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_1sdp" android:text="@string/saved" style="@style/Generator.SheetText"/>
+        </LinearLayout>
+    </LinearLayout>
+    <editor.common.sheetfooter.CloseOnlyFooter android:id="@+id/footer" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

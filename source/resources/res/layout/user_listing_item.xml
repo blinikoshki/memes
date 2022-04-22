@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/MemeBackgroundcolor" android:padding="@dimen/_5sdp" android:layout_width="match_parent" android:layout_height="@dimen/_55sdp">
+    <com.memes.plus.custom.UserAvatarView android:id="@+id/profile_pic_image_view" android:layout_width="@dimen/_40sdp" android:layout_height="@dimen/_40sdp"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="@dimen/_10sdp">
+        <TextView android:textSize="@dimen/_11sdp" android:textColor="@color/white" android:gravity="center_vertical" android:id="@+id/full_name_textview" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <TextView android:textSize="@dimen/_11sdp" android:textColor="@color/gray" android:gravity="top" android:id="@+id/user_name_textview" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <Button android:textSize="@dimen/_9ssp" android:textColor="@color/white" android:gravity="center" android:id="@+id/follow_switch_button" android:background="@drawable/shape_user_listing_item_button" android:layout_width="@dimen/_70sdp" android:layout_height="@dimen/_22sdp" android:text="@string/follow" android:textAllCaps="false" android:layout_marginEnd="@dimen/_8sdp" android:backgroundTint="@color/colorAccentDark"/>
+    <Button android:id="@+id/remove_button" android:background="@drawable/ic_close_white" android:padding="@dimen/_3sdp" android:visibility="gone" android:layout_width="@dimen/_20sdp" android:layout_height="@dimen/_20sdp" android:layout_marginEnd="@dimen/_5sdp"/>
+</LinearLayout>

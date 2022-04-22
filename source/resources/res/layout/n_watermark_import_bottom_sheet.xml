@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/StyledBottomSheet.Background">
+    <View style="@style/StyledBottomSheet.Handle"/>
+    <TextView android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_8sdp" android:layout_marginBottom="@dimen/_8sdp" android:text="@string/n_watermark_preview" android:layout_marginVertical="@dimen/_8sdp" style="@style/StyledBottomSheet.Title"/>
+    <ImageView android:id="@+id/watermark_thumbnail_view" android:background="#22000000" android:layout_width="match_parent" android:layout_height="@dimen/_140sdp" android:layout_marginTop="@dimen/_8sdp"/>
+    <LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_8sdp">
+        <com.google.android.material.button.MaterialButton android:id="@+id/cancel_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" style="@style/StyledBottomSheet.Button.Normal"/>
+        <com.google.android.material.button.MaterialButton android:id="@+id/import_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/_import" style="@style/StyledBottomSheet.Button.Highlighted"/>
+    </LinearLayout>
+</LinearLayout>

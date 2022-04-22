@@ -1,0 +1,96 @@
+[
+    {
+        "id": "tap_editor_nav",
+        "fb": "Make Meme Button"
+    },
+    {
+        "id": "tap_save_editor_frame",
+        "fb": "Next Edit page"
+    },
+    {
+        "id": "tap_exit_editor",
+        "fb": "Cancel Edit Page"
+    },
+
+
+    {
+        "id": "page_text_options",
+        "fb": "Text Edit Tools"
+    },
+    {
+        "id": "tap_text_typing_start",
+        "fb": "Type Text"
+    },
+    {
+        "id": "tap_text_colors",
+        "fb": "Color Text"
+    },
+    {
+        "id": "tap_text_adjustments",
+        "fb": "Adjust Text"
+    },
+    {
+        "id": "text_size_adjusted",
+        "fb": "Size Text"
+    },
+    {
+        "id": "text_margin_adjusted",
+        "fb": "Box Text"
+    },
+    {
+        "id": "text_alignment_left",
+        "fb": "Left Text"
+    },
+    {
+        "id": "text_alignment_center",
+        "fb": "Center Text"
+    },
+    {
+        "id": "text_alignment_right",
+        "fb": "Right Text"
+    },
+    {
+        "id": "exit_text_options",
+        "fb": "Done Text"
+    },
+
+
+    {
+        "id": "page_frames",
+        "fb": "Frame Edit Page"
+    },
+    {
+        "id": "tap_borders",
+        "fb": "Boarder Edit Tools"
+    },
+    {
+        "id": "tap_watermark",
+        "fb": "Watermark Edit Page"
+    },
+    {
+        "id": "tap_crop",
+        "fb": "Crop Edit Page"
+    },
+    {
+        "id": "tap_corners",
+        "fb": "Corners Edit Tools"
+    },
+    {
+        "id": "tap_stickers",
+        "fb": "Stickers Edit Tools"
+    },
+    {
+        "id": "tap_tools",
+        "fb": "Tools Edit Page"
+    },
+
+
+    {
+        "id": "select_editor_frame",
+        "fb": "frameSelection, frameSelected"
+    },
+    {
+        "id": "editor_frame_text_only",
+        "fb": "Text Frame"
+    }
+]

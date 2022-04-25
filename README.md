@@ -1,10 +1,10 @@
 # memes
 
 ## About
-This is the source code for the android version of the memes.com. An old friend [ThatBasilisk](https://memes.com/u/ThatBasilisk) is the one who decompiled this code.
+This is the source code for the Android version of the memes.com app. An old friend [ThatBasilisk](https://memes.com/u/ThatBasilisk) is the one who decompiled this code.
   
 ## Disclaimer
-I am not the owner of any code or intuallectual property in this repository. All code here was obtained by reverse engineering the Pearson Browser assembly using JADx.
+I am not the owner of any code or intuallectual property in this repository. All code here was obtained by reverse engineering the memes.com app Android assembly using JADx.
   
 ## Notes
 <details>
